@@ -89,6 +89,10 @@
         font-size: 1.6rem;
     }
 
+    .header .header__menu-item .icon-caret {
+        right: 0rem;
+    }
+
 }
 
 .product-form__submit {
