@@ -46,9 +46,6 @@
     "cards": {
       "name": "Product cards",
       "settings": {
-        "header__badge": {
-            "content": "Badge"
-        },
         "style": {
           "options__1": {
             "label": "Standard"
