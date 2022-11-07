@@ -18,9 +18,12 @@
 
     <title>
       {{ page_title }}
-      {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
-      {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-      {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+      {%- if current_tags %}
+        &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
+      {%- if current_page != 1 %}
+        &ndash; Page {{ current_page }}{% endif -%}
+      {%- unless page_title contains shop.name %}
+        &ndash; {{ shop.name }}{% endunless -%}
     </title>
 
     {% if page_description %}
@@ -46,32 +49,64 @@
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
       :root {
-        --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+        --font-body-family: 'Clarity City', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, Roboto, Ubuntu, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
         --font-body-style: {{ settings.type_body_font.style }};
-        --font-body-weight: {{ settings.type_body_font.weight }};
-        --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }};
+        --font-body-weight: 400;
+        --font-body-weight-bold: 800;
 
-        --font-heading-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+        --font-heading-family: 'Clarity City', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, Roboto, Ubuntu, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
         --font-heading-style: {{ settings.type_header_font.style }};
-        --font-heading-weight: {{ settings.type_header_font.weight }};
+        --font-heading-weight: 800;
 
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
         --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
 
-        --color-base-text: {{ settings.colors_text.red }}, {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
-        --color-shadow: {{ settings.colors_text.red }}, {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
-        --color-base-background-1: {{ settings.colors_background_1.red }}, {{ settings.colors_background_1.green }}, {{ settings.colors_background_1.blue }};
-        --color-base-background-2: {{ settings.colors_background_2.red }}, {{ settings.colors_background_2.green }}, {{ settings.colors_background_2.blue }};
-        --color-base-solid-button-labels: {{ settings.colors_solid_button_labels.red }}, {{ settings.colors_solid_button_labels.green }}, {{ settings.colors_solid_button_labels.blue }};
-        --color-base-outline-button-labels: {{ settings.colors_outline_button_labels.red }}, {{ settings.colors_outline_button_labels.green }}, {{ settings.colors_outline_button_labels.blue }};
-        --color-base-accent-1: {{ settings.colors_accent_1.red }}, {{ settings.colors_accent_1.green }}, {{ settings.colors_accent_1.blue }};
-        --color-base-accent-2: {{ settings.colors_accent_2.red }}, {{ settings.colors_accent_2.green }}, {{ settings.colors_accent_2.blue }};
+        --color-base-text: 
+        {{ settings.colors_text.red }},
+        {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
+        --color-shadow: 
+        {{ settings.colors_text.red }},
+        {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
+        --color-base-background-1: 
+        {{ settings.colors_background_1.red }},
+        {{ settings.colors_background_1.green }}, {{ settings.colors_background_1.blue }};
+        --color-base-background-2: 
+        {{ settings.colors_background_2.red }},
+        {{ settings.colors_background_2.green }}, {{ settings.colors_background_2.blue }};
+        --color-base-solid-button-labels: 
+        {{ settings.colors_solid_button_labels.red }},
+        {{ settings.colors_solid_button_labels.green }}, {{ settings.colors_solid_button_labels.blue }};
+        --color-base-outline-button-labels: 
+        {{ settings.colors_outline_button_labels.red }},
+        {{ settings.colors_outline_button_labels.green }}, {{ settings.colors_outline_button_labels.blue }};
+        --color-base-accent-1: 
+        {{ settings.colors_accent_1.red }},
+        {{ settings.colors_accent_1.green }}, {{ settings.colors_accent_1.blue }};
+        --color-base-accent-2: 
+        {{ settings.colors_accent_2.red }},
+        {{ settings.colors_accent_2.green }}, {{ settings.colors_accent_2.blue }};
         --payment-terms-background-color: {{ settings.colors_background_1 }};
 
-        --gradient-base-background-1: {% if settings.gradient_background_1 != blank %}{{ settings.gradient_background_1 }}{% else %}{{ settings.colors_background_1 }}{% endif %};
-        --gradient-base-background-2: {% if settings.gradient_background_2 != blank %}{{ settings.gradient_background_2 }}{% else %}{{ settings.colors_background_2 }}{% endif %};
-        --gradient-base-accent-1: {% if settings.gradient_accent_1 != blank %}{{ settings.gradient_accent_1 }}{% else %}{{ settings.colors_accent_1 }}{% endif %};
-        --gradient-base-accent-2: {% if settings.gradient_accent_2 != blank %}{{ settings.gradient_accent_2 }}{% else %}{{ settings.colors_accent_2 }}{% endif %};
+        --gradient-base-background-1: {% if settings.gradient_background_1 != blank %}
+          {{ settings.gradient_background_1 }}
+        {% else %}
+          {{ settings.colors_background_1 }}
+        {% endif %};
+        --gradient-base-background-2: {% if settings.gradient_background_2 != blank %}
+          {{ settings.gradient_background_2 }}
+        {% else %}
+          {{ settings.colors_background_2 }}
+        {% endif %};
+        --gradient-base-accent-1: {% if settings.gradient_accent_1 != blank %}
+          {{ settings.gradient_accent_1 }}
+        {% else %}
+          {{ settings.colors_accent_1 }}
+        {% endif %};
+        --gradient-base-accent-2: {% if settings.gradient_accent_2 != blank %}
+          {{ settings.gradient_accent_2 }}
+        {% else %}
+          {{ settings.colors_accent_2 }}
+        {% endif %};
 
         --media-padding: {{ settings.media_padding }}px;
         --media-border-opacity: {{ settings.media_border_opacity | divided_by: 100.0 }};
@@ -81,10 +116,14 @@
         --media-shadow-horizontal-offset: {{ settings.media_shadow_horizontal_offset }}px;
         --media-shadow-vertical-offset: {{ settings.media_shadow_vertical_offset }}px;
         --media-shadow-blur-radius: {{ settings.media_shadow_blur }}px;
-        --media-shadow-visible: {% if settings.media_shadow_opacity > 0 %}1{% else %}0{% endif %};
+        --media-shadow-visible: {% if settings.media_shadow_opacity > 0 %}
+          1{% else %}
+          0{% endif %};
 
         --page-width: {{ settings.page_width | divided_by: 10 }}rem;
-        --page-width-margin: {% if settings.page_width == '1600' %}2{% else %}0{% endif %}rem;
+        --page-width-margin: {% if settings.page_width == '1600' %}
+          2{% else %}
+          0{% endif %}rem;
 
         --product-card-image-padding: {{ settings.card_image_padding | divided_by: 10.0 }}rem;
         --product-card-corner-radius: {{ settings.card_corner_radius | divided_by: 10.0 }}rem;
@@ -92,7 +131,9 @@
         --product-card-border-width: {{ settings.card_border_thickness | divided_by: 10.0 }}rem;
         --product-card-border-opacity: {{ settings.card_border_opacity | divided_by: 100.0 }};
         --product-card-shadow-opacity: {{ settings.card_shadow_opacity | divided_by: 100.0 }};
-        --product-card-shadow-visible: {% if settings.card_shadow_opacity > 0 %}1{% else %}0{% endif %};
+        --product-card-shadow-visible: {% if settings.card_shadow_opacity > 0 %}
+          1{% else %}
+          0{% endif %};
         --product-card-shadow-horizontal-offset: {{ settings.card_shadow_horizontal_offset | divided_by: 10.0 }}rem;
         --product-card-shadow-vertical-offset: {{ settings.card_shadow_vertical_offset | divided_by: 10.0 }}rem;
         --product-card-shadow-blur-radius: {{ settings.card_shadow_blur | divided_by: 10.0 }}rem;
@@ -103,7 +144,9 @@
         --collection-card-border-width: {{ settings.collection_card_border_thickness | divided_by: 10.0 }}rem;
         --collection-card-border-opacity: {{ settings.collection_card_border_opacity | divided_by: 100.0 }};
         --collection-card-shadow-opacity: {{ settings.collection_card_shadow_opacity | divided_by: 100.0 }};
-        --collection-card-shadow-visible: {% if settings.collection_card_shadow_opacity > 0 %}1{% else %}0{% endif %};
+        --collection-card-shadow-visible: {% if settings.collection_card_shadow_opacity > 0 %}
+          1{% else %}
+          0{% endif %};
         --collection-card-shadow-horizontal-offset: {{ settings.collection_card_shadow_horizontal_offset | divided_by: 10.0 }}rem;
         --collection-card-shadow-vertical-offset: {{ settings.collection_card_shadow_vertical_offset | divided_by: 10.0 }}rem;
         --collection-card-shadow-blur-radius: {{ settings.collection_card_shadow_blur | divided_by: 10.0 }}rem;
@@ -114,7 +157,9 @@
         --blog-card-border-width: {{ settings.blog_card_border_thickness | divided_by: 10.0 }}rem;
         --blog-card-border-opacity: {{ settings.blog_card_border_opacity | divided_by: 100.0 }};
         --blog-card-shadow-opacity: {{ settings.blog_card_shadow_opacity | divided_by: 100.0 }};
-        --blog-card-shadow-visible: {% if settings.blog_card_shadow_opacity > 0 %}1{% else %}0{% endif %};
+        --blog-card-shadow-visible: {% if settings.blog_card_shadow_opacity > 0 %}
+          1{% else %}
+          0{% endif %};
         --blog-card-shadow-horizontal-offset: {{ settings.blog_card_shadow_horizontal_offset | divided_by: 10.0 }}rem;
         --blog-card-shadow-vertical-offset: {{ settings.blog_card_shadow_vertical_offset | divided_by: 10.0 }}rem;
         --blog-card-shadow-blur-radius: {{ settings.blog_card_shadow_blur | divided_by: 10.0 }}rem;
@@ -137,7 +182,11 @@
         --drawer-shadow-blur-radius: {{ settings.drawer_shadow_blur }}px;
 
         --spacing-sections-desktop: {{ settings.spacing_sections }}px;
-        --spacing-sections-mobile: {% if settings.spacing_sections < 24 %}{{ settings.spacing_sections }}{% else %}{{ settings.spacing_sections | times: 0.7 | round | at_least: 20 }}{% endif %}px;
+        --spacing-sections-mobile: {% if settings.spacing_sections < 24 %}
+          {{ settings.spacing_sections }}
+        {% else %}
+          {{ settings.spacing_sections | times: 0.7 | round | at_least: 20 }}
+        {% endif %}px;
 
         --grid-desktop-vertical-spacing: {{ settings.spacing_grid_vertical }}px;
         --grid-desktop-horizontal-spacing: {{ settings.spacing_grid_horizontal }}px;
@@ -148,31 +197,49 @@
         --text-boxes-border-width: {{ settings.text_boxes_border_thickness }}px;
         --text-boxes-radius: {{ settings.text_boxes_radius }}px;
         --text-boxes-shadow-opacity: {{ settings.text_boxes_shadow_opacity | divided_by: 100.0 }};
-        --text-boxes-shadow-visible: {% if settings.text_boxes_shadow_opacity > 0 %}1{% else %}0{% endif %};
+        --text-boxes-shadow-visible: {% if settings.text_boxes_shadow_opacity > 0 %}
+          1{% else %}
+          0{% endif %};
         --text-boxes-shadow-horizontal-offset: {{ settings.text_boxes_shadow_horizontal_offset }}px;
         --text-boxes-shadow-vertical-offset: {{ settings.text_boxes_shadow_vertical_offset }}px;
         --text-boxes-shadow-blur-radius: {{ settings.text_boxes_shadow_blur }}px;
 
         --buttons-radius: {{ settings.buttons_radius }}px;
-        --buttons-radius-outset: {% if settings.buttons_radius > 0 %}{{ settings.buttons_radius | plus: settings.buttons_border_thickness }}{% else %}0{% endif %}px;
-        --buttons-border-width: {% if settings.buttons_border_opacity > 0 %}{{ settings.buttons_border_thickness }}{% else %}0{% endif %}px;
+        --buttons-radius-outset: {% if settings.buttons_radius > 0 %}
+          {{ settings.buttons_radius | plus: settings.buttons_border_thickness }}
+        {% else %}
+          0{% endif %}px;
+        --buttons-border-width: {% if settings.buttons_border_opacity > 0 %}
+          {{ settings.buttons_border_thickness }}
+        {% else %}
+          0{% endif %}px;
         --buttons-border-opacity: {{ settings.buttons_border_opacity | divided_by: 100.0 }};
         --buttons-shadow-opacity: {{ settings.buttons_shadow_opacity | divided_by: 100.0 }};
-        --buttons-shadow-visible: {% if settings.buttons_shadow_opacity > 0 %}1{% else %}0{% endif %};
+        --buttons-shadow-visible: {% if settings.buttons_shadow_opacity > 0 %}
+          1{% else %}
+          0{% endif %};
         --buttons-shadow-horizontal-offset: {{ settings.buttons_shadow_horizontal_offset }}px;
         --buttons-shadow-vertical-offset: {{ settings.buttons_shadow_vertical_offset }}px;
         --buttons-shadow-blur-radius: {{ settings.buttons_shadow_blur }}px;
-        --buttons-border-offset: {% if settings.buttons_radius > 0 or settings.buttons_shadow_opacity > 0 %}0.3{% else %}0{% endif %}px;
+        --buttons-border-offset: {% if settings.buttons_radius > 0 or settings.buttons_shadow_opacity > 0 %}
+          0.3{% else %}
+          0{% endif %}px;
 
         --inputs-radius: {{ settings.inputs_radius }}px;
         --inputs-border-width: {{ settings.inputs_border_thickness }}px;
         --inputs-border-opacity: {{ settings.inputs_border_opacity | divided_by: 100.0 }};
         --inputs-shadow-opacity: {{ settings.inputs_shadow_opacity | divided_by: 100.0 }};
         --inputs-shadow-horizontal-offset: {{ settings.inputs_shadow_horizontal_offset }}px;
-        --inputs-margin-offset: {% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_opacity > 0 %}{{ settings.inputs_shadow_vertical_offset | abs }}{% else %}0{% endif %}px;
+        --inputs-margin-offset: {% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_opacity > 0 %}
+          {{ settings.inputs_shadow_vertical_offset | abs }}
+        {% else %}
+          0{% endif %}px;
         --inputs-shadow-vertical-offset: {{ settings.inputs_shadow_vertical_offset }}px;
         --inputs-shadow-blur-radius: {{ settings.inputs_shadow_blur }}px;
-        --inputs-radius-outset: {% if settings.inputs_radius > 0 %}{{ settings.inputs_radius | plus: settings.inputs_border_thickness }}{% else %}0{% endif %}px;
+        --inputs-radius-outset: {% if settings.inputs_radius > 0 %}
+          {{ settings.inputs_radius | plus: settings.inputs_border_thickness }}
+        {% else %}
+          0{% endif %}px;
 
         --variant-pills-radius: {{ settings.variant_pills_radius }}px;
         --variant-pills-border-width: {{ settings.variant_pills_border_thickness }}px;
@@ -181,6 +248,46 @@
         --variant-pills-shadow-horizontal-offset: {{ settings.variant_pills_shadow_horizontal_offset }}px;
         --variant-pills-shadow-vertical-offset: {{ settings.variant_pills_shadow_vertical_offset }}px;
         --variant-pills-shadow-blur-radius: {{ settings.variant_pills_shadow_blur }}px;
+      }
+
+      @font-face {
+        font-display: fallback;
+        font-family: 'Clarity City';
+        font-weight: 400;
+        font-style: normal;
+        src: local('ClarityCity-Regular'), local('Clarity City'), url('{{ "font__ClarityCity-400.woff2" | asset_url }}') format('woff2'), url('{{ "font__ClarityCity-400.woff" | asset_url }}') format('woff'), url('{{ "font__ClarityCity-400.ttf" | asset_url }}') format('ttf');
+      }
+
+      @font-face {
+        font-display: fallback;
+        font-family: 'Clarity City';
+        font-weight: 500;
+        font-style: normal;
+        src: local('ClarityCity-SemiBold'), local('Clarity City'), url('{{ "font__ClarityCity-500.woff2" | asset_url }}') format('woff2'), url('{{ "font__ClarityCity-500.woff" | asset_url }}') format('woff'), url('{{ "font__ClarityCity-500.ttf" | asset_url }}') format('ttf');
+      }
+
+      @font-face {
+        font-display: fallback;
+        font-family: 'Clarity City';
+        font-weight: 600;
+        font-style: normal;
+        src: local('ClarityCity-SemiBold'), local('Clarity City'), url('{{ "font__ClarityCity-600.woff2" | asset_url }}') format('woff2'), url('{{ "font__ClarityCity-600.woff" | asset_url }}') format('woff'), url('{{ "font__ClarityCity-600.ttf" | asset_url }}') format('ttf');
+      }
+
+      @font-face {
+        font-display: fallback;
+        font-family: 'Clarity City';
+        font-weight: 700;
+        font-style: normal;
+        src: local('ClarityCity-Bold'), local('Clarity City'), url('{{ "font__ClarityCity-700.woff2" | asset_url }}') format('woff2'), url('{{ "font__ClarityCity-700.woff" | asset_url }}') format('woff'), url('{{ "font__ClarityCity-700.ttf" | asset_url }}') format('ttf');
+      }
+
+      @font-face {
+        font-display: fallback;
+        font-family: 'Source Serif Pro';
+        font-style: italic;
+        font-weight: 400;
+        src: local('SourceSerifPro-It'), url('{{ "font__source-serif-pro-v11-latin-italic.woff2" | asset_url }}') format('woff2'), url('{{ "font__source-serif-pro-v11-latin-italic.woff" | asset_url }}') format('woff'), url('{{ "font__source-serif-pro-v11-latin-italic.ttf" | asset_url }}') format('ttf');
       }
 
       *,
@@ -217,6 +324,7 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'custom.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -229,10 +337,11 @@
       <link rel="stylesheet" href="{{ 'component-predictive-search.css' | asset_url }}" media="print" onload="this.media='all'">
     {%- endif -%}
 
-    <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-    if (Shopify.designMode) {
-      document.documentElement.classList.add('shopify-design-mode');
-    }
+    <script>
+      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+      if (Shopify.designMode) {
+        document.documentElement.classList.add('shopify-design-mode');
+      }
     </script>
   </head>
 
@@ -277,14 +386,14 @@
         addToCart: `{{ 'products.product.add_to_cart' | t }}`,
         soldOut: `{{ 'products.product.sold_out' | t }}`,
         unavailable: `{{ 'products.product.unavailable' | t }}`,
-        unavailable_with_option: `{{ 'products.product.value_unavailable' | t: option_value: '[value]' }}`,
+        unavailable_with_option: `{{ 'products.product.value_unavailable' | t: option_value: '[value]' }}`
       }
 
       window.accessibilityStrings = {
         imageAvailable: `{{ 'products.product.media.image_available' | t: index: '[index]' }}`,
         shareSuccess: `{{ 'general.share.success_message' | t }}`,
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
-        playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
+        playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`
       }
     </script>
 

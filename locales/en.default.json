@@ -277,11 +277,12 @@
       "onboarding_content": "Give your customers a summary of your blog post"
     },
     "featured_collection": {
-      "view_all": "View all",
-      "view_all_label": "View all products in the {{ collection_name }} collection"
+      "view_all": "SHOP ALL",
+      "view_all_label": "Shop all products in the {{ collection_name }} collection",
+      "slider": "Slider"
     },
     "collection_list": {
-      "view_all": "View all"
+      "view_all": "SHOP ALL"
     },
     "collection_template": {
       "empty": "No products found",
