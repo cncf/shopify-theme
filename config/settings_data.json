@@ -83,14 +83,14 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
-    "social_twitter_link": "https:\/\/twitter.com\/cloudnativefdn",
-    "social_facebook_link": "https:\/\/www.facebook.com\/CloudNativeComputingFoundation\/",
+    "social_twitter_link": "https://twitter.com/cloudnativefdn",
+    "social_facebook_link": "https://www.facebook.com/CloudNativeComputingFoundation/",
     "social_pinterest_link": "",
     "social_instagram_link": "",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "https:\/\/www.youtube.com\/c\/cloudnativefdn",
+    "social_youtube_link": "https://www.youtube.com/c/cloudnativefdn",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
@@ -99,7 +99,7 @@
     "cart_type": "notification",
     "show_vendor": false,
     "show_cart_note": false,
-    "checkout_logo_image": "shopify:\/\/shop_images\/Store_2964647d-f616-48ce-92c9-c0994c6a7ef2.png",
+    "checkout_logo_image": "shopify://shop_images/Store_2964647d-f616-48ce-92c9-c0994c6a7ef2.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_accent_color": "#d62293",
@@ -155,7 +155,7 @@
             "disabled": true,
             "settings": {
               "heading": "Heading",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
             }
           }
         },
@@ -351,7 +351,7 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },
