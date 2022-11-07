@@ -1,0 +1,98 @@
+/* Mobile menu links  */
+.menu-drawer .list-menu a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: .02em;
+    line-height: 1;
+
+}
+
+.menu-drawer .menu-drawer__menu-item {
+    padding: 2rem 3.2rem;
+}
+
+.header .header__icon--cart .icon-cart-empty {
+    height: 2rem;
+    width: 2rem;
+    padding: 0;
+}
+
+/* Item in cart  */
+.header .header__icon--cart .icon-cart {
+    height: 2.2rem;
+    width: 2.2rem;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.header .header__icon--search>span {
+    height: 108%;
+}
+
+
+@media screen and (min-width: 990px) {
+
+    .header .list-menu--inline {
+        margin-left: 4rem;
+    }
+
+    .header .header__menu-item {
+        padding: 1.2rem;
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
+        letter-spacing: .02em;
+        line-height: 1;
+    }
+
+    /* All link items */
+    .header .header__menu-item span {
+        padding-left: 6px;
+        padding-right: 6px;
+        position: relative;
+    }
+
+    .header__menu-item:hover span {
+        text-decoration: none;
+    }
+
+    .header .header__menu-item:hover span:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -34px;
+        height: 5px;
+        display: block;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .header .header__inline-menu ul li:nth-child(1) span:after {
+        background-color: #dd9ef4;
+    }
+
+    .header .header__inline-menu ul li:nth-child(2) span:after {
+        background-color: #f29996;
+    }
+
+    .header .header__inline-menu ul li:nth-child(3) span:after {
+        background-color: #96b0f2;
+    }
+
+    /* Current link item  */
+    .header .header__active-menu-item {
+        text-decoration: none;
+    }
+
+    .header .list-menu .link {
+        font-size: 1.6rem;
+    }
+
+}
+
+.product-form__submit {
+    text-transform: uppercase;
+    font-weight: 800;
+}

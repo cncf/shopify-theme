@@ -1,0 +1,12 @@
+<div class="row products">
+  {% if collections.best-selling.products.size > 0 %}
+    <ul>
+      {% for product in collections.best-selling.products %}
+        <li>
+          <img src="{{ product.featured_image | product_img_url: '600x' }}" alt="{{ product.title | escape  }}"/>
+          <a class="shop-now" href="{{ product.url }}">{{ product.title | escape  }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>

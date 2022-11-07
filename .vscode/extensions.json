@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+        "shopify.theme-check-vscode",
+        "killalau.vscode-liquid-snippets",
+        "sissel.shopify-liquid",
+        "christian-kohler.path-intellisense",
+        "shopify.polaris-for-vscode",
+        "editorconfig.editorconfig",
+	]
+}

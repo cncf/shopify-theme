@@ -1,0 +1,33 @@
+{
+    "files.exclude": {
+        ".docker/": true,
+        "**/.vscode": true,
+        "**/node_modules": true,
+        "/resources/views/vendor": false,
+        "vendor": true
+    },
+    "files.watcherExclude": {
+        "**/.git": true,
+        "node_modules": true,
+        "vendor": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/vendor/**": true,
+        "/resources/views/vendor": false
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/vendor": true
+    },
+	"editor.suggest.showSnippets": true,
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"editor.wordWrap": "off",
+	"editor.renderFinalNewline": true,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": false,
+	"html.format.wrapLineLength": 80,
+	"editor.tabSize": 4,
+	"editor.insertSpaces": true,
+}
