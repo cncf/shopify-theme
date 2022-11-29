@@ -1,11 +1,11 @@
 {
   "sections": {
-    "8447aec8-9aab-48b2-ba68-7c5844a12b4c": {
+    "51f718bc-cbe7-4e36-a261-28a91e693298": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "",
         "color_scheme": "background-1",
-        "padding_top": 44,
+        "padding_top": 40,
         "padding_bottom": 52
       }
     },
@@ -21,7 +21,7 @@
     }
   },
   "order": [
-    "8447aec8-9aab-48b2-ba68-7c5844a12b4c",
+    "51f718bc-cbe7-4e36-a261-28a91e693298",
     "main"
   ]
 }
