@@ -93,7 +93,7 @@
         "share": {
           "type": "share",
           "settings": {
-            "share_label": "Share"
+            "share_label": "Share This!"
           }
         }
       },
@@ -114,8 +114,10 @@
       ],
       "settings": {
         "enable_sticky_info": false,
+        "media_position": "left",
         "gallery_layout": "thumbnail",
         "media_size": "medium",
+        "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
