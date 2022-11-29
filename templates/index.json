@@ -6,12 +6,12 @@
         "166309201403ebdd65-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/52082729198_044a14593e_o_1.jpg",
+            "image": "shopify:\/\/shop_images\/52082729198_044a14593e_o_1.jpg",
             "heading": "CLOUD NATIVE",
             "heading_size": "h0",
             "subheading": "T-Shirts",
             "button_label": "ONLINE NOW",
-            "link": "shopify://collections/cncf",
+            "link": "shopify:\/\/collections\/cncf",
             "button_style_secondary": true,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -24,12 +24,12 @@
         "166309201403ebdd65-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Phippy_Scene_2x_clear_4.png",
+            "image": "shopify:\/\/shop_images\/Phippy_Scene_2x_clear_4.png",
             "heading": "PHIPPY & FRIENDS",
             "heading_size": "h1",
             "subheading": "Squishy Toys",
             "button_label": "GET THE FAMILY",
-            "link": "shopify://collections/phippy-friends",
+            "link": "shopify:\/\/collections\/phippy-friends",
             "button_style_secondary": true,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -123,12 +123,12 @@
         "1663094543e6b1be84-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Rectangle-16982.jpg",
+            "image": "shopify:\/\/shop_images\/Rectangle-16982.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "SHOP ALL COLLECTIONS",
-            "link": "shopify://collections",
+            "link": "shopify:\/\/collections",
             "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -186,12 +186,12 @@
         "1663094920a7c595b3-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2022-07-29_at_12.20_1.jpg",
+            "image": "shopify:\/\/shop_images\/Screenshot_2022-07-29_at_12.20_1.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "PURCHASE TICKETS",
-            "link": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/?utm_source=Google&utm_medium=Search&utm_campaign=KC%2BCNC+NA+22&utm_id=KC%2BCNC+NA+22&gclid=CjwKCAjw1ICZBhAzEiwAFfvFhM5LORKNC_FmtPOH2E7l1wQBX2ALDjjDpMHw65Prmb8VSIAarSWoJRoCcGQQAvD_BwE",
+            "link": "https:\/\/events.linuxfoundation.org\/kubecon-cloudnativecon-north-america\/?utm_source=Google&utm_medium=Search&utm_campaign=KC%2BCNC+NA+22&utm_id=KC%2BCNC+NA+22&gclid=CjwKCAjw1ICZBhAzEiwAFfvFhM5LORKNC_FmtPOH2E7l1wQBX2ALDjjDpMHw65Prmb8VSIAarSWoJRoCcGQQAvD_BwE",
             "button_style_secondary": true,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -204,12 +204,12 @@
         "1663094920a7c595b3-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2022-09-13_at_3.54.34_PM.png",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-13_at_3.54.34_PM.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "PURCHASE TICKETS",
-            "link": "https://events.linuxfoundation.org/argocon/",
+            "link": "https:\/\/events.linuxfoundation.org\/argocon\/",
             "button_style_secondary": true,
             "box_align": "bottom-right",
             "show_text_box": false,
@@ -249,8 +249,8 @@
       "settings": {
         "heading": "DISCOVER RECENT KUBECONS",
         "heading_size": "h2",
-        "cover_image": "shopify://shop_images/52082942834_d1414bf361_k.jpg",
-        "video_url": "https://youtu.be/-pJe6-_16gg",
+        "cover_image": "shopify:\/\/shop_images\/52082942834_d1414bf361_k.jpg",
+        "video_url": "https:\/\/youtu.be\/-pJe6-_16gg",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
