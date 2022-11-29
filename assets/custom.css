@@ -104,9 +104,18 @@
     max-width: 65rem;
 }
 
+.banner__box .banner__heading+* {
+    margin-top: 0rem;
+}
+
 .slideshow__text.banner__box .banner__text {
     font-size: calc(var(--font-heading-scale) * 5.2rem);
     text-transform: uppercase;
+    line-height: 130%;
+}
+
+.slideshow__text.banner__box .banner__text span {
+    color: rgba(var(--color-foreground), 1);
 }
 
 .slideshow__text.banner__box .banner__buttons {
@@ -116,4 +125,27 @@
     font-weight: 700;
     min-width: 180px;
     text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+}
+
+.button {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.25s ease-out;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.button:hover {
+    text-decoration: none;
 }
