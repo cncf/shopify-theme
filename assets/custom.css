@@ -99,3 +99,21 @@
     text-transform: uppercase;
     font-weight: 800;
 }
+
+.slideshow__text.banner__box {
+    max-width: 65rem;
+}
+
+.slideshow__text.banner__box .banner__text {
+    font-size: calc(var(--font-heading-scale) * 5.2rem);
+    text-transform: uppercase;
+}
+
+.slideshow__text.banner__box .banner__buttons {
+    border: 1px solid white;
+    padding: 13px 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    min-width: 180px;
+    text-align: center;
+}
