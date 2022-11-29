@@ -5,10 +5,16 @@
       "blocks": {
         "vendor": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
+          }
+        },
+        "c924456a-e588-478a-8588-737db770b993": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
           }
         },
         "title": {
@@ -99,6 +105,7 @@
       },
       "block_order": [
         "vendor",
+        "c924456a-e588-478a-8588-737db770b993",
         "title",
         "caption",
         "price",
