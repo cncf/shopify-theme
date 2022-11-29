@@ -6,8 +6,8 @@
         "1662755006af0b5e27-0": {
           "type": "heading",
           "settings": {
-            "heading": "Prometheus",
-            "heading_size": "h1"
+            "heading": "Prometheus{{ collection.title }}",
+            "heading_size": "h0"
           }
         },
         "1662755006af0b5e27-1": {
