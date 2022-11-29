@@ -160,3 +160,7 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
     outline-offset: 1rem;
     box-shadow: 0 0 0 1rem rgb(var(--color-background)), 0 0 .2rem 1.2rem rgba(var(--color-foreground), .3);
 }
+
+.page-width--narrow h2 {
+    margin-top: 5rem;
+}
