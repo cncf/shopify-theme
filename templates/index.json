@@ -71,12 +71,12 @@
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
