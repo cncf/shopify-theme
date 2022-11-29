@@ -6,17 +6,17 @@
         "166309201403ebdd65-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/52082729198_044a14593e_o_1.jpg",
+            "image": "shopify:\/\/shop_images\/52082729198_044a14593e_o_1.jpg",
             "heading": "CLOUD NATIVE",
             "heading_size": "h0",
-            "subheading": "T-Shirts",
-            "button_label": "ONLINE NOW",
-            "link": "shopify://collections/cncf",
+            "subheading": "T-SHIRTS",
+            "button_label": "BUY NOW",
+            "link": "shopify:\/\/collections\/cncf",
             "button_style_secondary": true,
             "box_align": "bottom-left",
             "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 10,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
@@ -24,12 +24,12 @@
         "166309201403ebdd65-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Phippy_Scene_2x_clear_4.png",
+            "image": "shopify:\/\/shop_images\/Phippy_Scene_2x_clear_4.png",
             "heading": "PHIPPY & FRIENDS",
-            "heading_size": "h1",
-            "subheading": "Squishy Toys",
+            "heading_size": "h0",
+            "subheading": "SQUISHY TOYS",
             "button_label": "GET THE FAMILY",
-            "link": "shopify://collections/phippy-friends",
+            "link": "shopify:\/\/collections\/phippy-friends",
             "button_style_secondary": true,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -116,158 +116,12 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "1663094543f3ca8bfe": {
-      "type": "slideshow",
-      "blocks": {
-        "1663094543e6b1be84-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Rectangle-16982.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "SHOP ALL COLLECTIONS",
-            "link": "shopify://collections",
-            "button_style_secondary": true,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "1663094543e6b1be84-1": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1663094543e6b1be84-0",
-        "1663094543e6b1be84-1"
-      ],
-      "settings": {
-        "layout": "grid",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "166309492590f91886": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "1663094920fd189cb5": {
-      "type": "slideshow",
-      "blocks": {
-        "1663094920a7c595b3-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2022-07-29_at_12.20_1.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "PURCHASE TICKETS",
-            "link": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/?utm_source=Google&utm_medium=Search&utm_campaign=KC%2BCNC+NA+22&utm_id=KC%2BCNC+NA+22&gclid=CjwKCAjw1ICZBhAzEiwAFfvFhM5LORKNC_FmtPOH2E7l1wQBX2ALDjjDpMHw65Prmb8VSIAarSWoJRoCcGQQAvD_BwE",
-            "button_style_secondary": true,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "1663094920a7c595b3-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2022-09-13_at_3.54.34_PM.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "PURCHASE TICKETS",
-            "link": "https://events.linuxfoundation.org/argocon/",
-            "button_style_secondary": true,
-            "box_align": "bottom-right",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1663094920a7c595b3-0",
-        "1663094920a7c595b3-1"
-      ],
-      "settings": {
-        "layout": "grid",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "1663096268b887e4b9": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "video": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "DISCOVER RECENT KUBECONS",
-        "heading_size": "h2",
-        "cover_image": "shopify://shop_images/52082942834_d1414bf361_k.jpg",
-        "video_url": "https://youtu.be/-pJe6-_16gg",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "1663092014441a5f26",
     "16630920171f0c85e5",
     "1663084055b144a78d",
-    "16630963473ff8546b",
-    "1663094543f3ca8bfe",
-    "166309492590f91886",
-    "1663094920fd189cb5",
-    "1663096268b887e4b9",
-    "video"
+    "16630963473ff8546b"
   ]
 }
