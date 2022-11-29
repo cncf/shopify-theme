@@ -3,10 +3,10 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "title": "Collections",
+        "title": "All Projects & Brands",
         "sort": "alphabetical",
         "image_ratio": "portrait",
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "columns_mobile": "2"
       }
     }
