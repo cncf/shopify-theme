@@ -154,3 +154,9 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
 .button:hover {
     text-decoration: none;
 }
+
+.select__select.facet-filters__sort {
+    outline: .2rem solid rgba(var(--color-foreground), .5);
+    outline-offset: 1rem;
+    box-shadow: 0 0 0 1rem rgb(var(--color-background)), 0 0 .2rem 1.2rem rgba(var(--color-foreground), .3);
+}
