@@ -61,7 +61,7 @@
         position: absolute;
         left: 0;
         right: 0;
-        bottom: -34px;
+        bottom: -36px;
         height: 5px;
         display: block;
         width: 100%;
@@ -111,7 +111,8 @@ slideshow-component .slideshow__text.banner__box {
     max-width: 65rem;
 }
 
-slideshow-component .slideshow__text.banner__box .banner__text span {
+slideshow-component .slideshow__text.banner__box .banner__text span,
+slideshow-component .slideshow__text.banner__box .banner__heading {
     color: black;
 }
 
