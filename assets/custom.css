@@ -114,6 +114,10 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
 /* DESKTOP  */
 @media screen and (min-width: 990px) {
 
+    slideshow-component .slideshow__text.banner__box .banner__buttons .button {
+        color: black;
+    }
+
     .header__inline-menu .header .list-menu--inline {
         margin-left: 2rem;
     }
@@ -174,8 +178,6 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
     .header .header__active-menu-item {
         text-decoration: none;
     }
-
-
 
     .header .header__menu-item .icon-caret {
         right: 0rem;
