@@ -105,6 +105,29 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
     height: 15px;
 }
 
+.collection__view-all {
+    margin-top: 2rem;
+}
+
+.collection__view-all a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.collection__view-all a:after {
+    border-bottom: 3px solid #d62293;
+    bottom: -14px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
 /* UPTO DESKTOP */
 @media (max-width: 749px) {
     .banner__content .banner__box {
