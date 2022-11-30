@@ -116,6 +116,8 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
     letter-spacing: 0.02em;
     color: #000000;
     text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
 }
 
 .collection__view-all a:after {
