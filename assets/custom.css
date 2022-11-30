@@ -97,6 +97,7 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
     text-transform: uppercase;
     font-weight: 700;
     min-width: 180px;
+    color: black;
 }
 
 /* Size of slider arrows  */
