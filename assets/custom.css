@@ -112,10 +112,11 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
 }
 
 /* DESKTOP  */
-@media screen and (min-width: 990px) {
+@media (min-width: 990px) {
 
     slideshow-component .slideshow__text.banner__box .banner__buttons .button {
         color: black;
+        --color-button-text: 0, 0, 0;
     }
 
     .header__inline-menu .header .list-menu--inline {
