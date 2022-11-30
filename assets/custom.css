@@ -104,6 +104,23 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
     height: 15px;
 }
 
+/* UPTO DESKTOP */
+@media (max-width: 749px) {
+    .banner__content .banner__box {
+        padding: 2rem 3.5rem 2rem 3.5rem;
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+    .header .list-menu--inline {
+        margin-left: 2rem;
+    }
+
+    .header .list-menu .link {
+        font-size: 1.4rem;
+    }
+}
+
 /* DESKTOP  */
 @media screen and (min-width: 990px) {
 
