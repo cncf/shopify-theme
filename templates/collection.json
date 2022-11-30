@@ -72,8 +72,8 @@
         "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
-        "padding_top": 72,
-        "padding_bottom": 72
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     }
   },
