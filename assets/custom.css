@@ -111,12 +111,12 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
     }
 }
 
-@media screen and (min-width: 990px) and (max-width: 1200px) {
-    .header .list-menu--inline {
+@media (min-width: 990px) and (max-width: 1200px) {
+    .header__inline-menu .header .list-menu--inline {
         margin-left: 2rem;
     }
 
-    .header .list-menu .link {
+    .header__inline-menu .header .list-menu .link {
         font-size: 1.4rem;
     }
 }
