@@ -134,6 +134,13 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
     text-transform: uppercase;
 }
 
+/* UPTO IPHONE 8 */
+@media (max-width: 412px) {
+    .h0 {
+        font-size: calc(var(--font-heading-scale) * 3rem);
+    }
+}
+
 /* UPTO DESKTOP */
 @media (max-width: 749px) {
     .banner__content .banner__box {
