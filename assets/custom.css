@@ -130,6 +130,10 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
     width: 100%;
 }
 
+.collection .collection__title h2.title {
+    text-transform: uppercase;
+}
+
 /* UPTO DESKTOP */
 @media (max-width: 749px) {
     .banner__content .banner__box {
@@ -178,7 +182,7 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
         position: absolute;
         left: 0;
         right: 0;
-        bottom: -36px;
+        bottom: -38px;
         height: 5px;
         display: block;
         width: 100%;
