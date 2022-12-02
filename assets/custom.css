@@ -189,6 +189,10 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
         background-color: transparent;
     }
 
+    .header .header__inline-menu ul li {
+        margin-right: 10px;
+    }
+
     .header .header__inline-menu ul li:nth-child(1) span:after {
         background-color: #dd9ef4;
     }
@@ -216,6 +220,10 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
 
     slideshow-component .slideshow__text.banner__box .banner__text {
         font-size: calc(var(--font-heading-scale) * 5.2rem);
+    }
+
+    .page-width--narrow h2 {
+        font-size: calc(var(--font-heading-scale) * 3.4rem)
     }
 }
 
