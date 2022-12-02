@@ -139,6 +139,11 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
     .banner__content .banner__box {
         padding: 2rem 3.5rem 2rem 3.5rem;
     }
+
+    .header__heading-link {
+        padding: 0;
+        margin-right: 1rem;
+    }
 }
 
 /* DESKTOP  */
