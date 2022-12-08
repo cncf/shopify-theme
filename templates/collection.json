@@ -36,7 +36,6 @@
         "1662755006af0b5e27-2"
       ],
       "settings": {
-        "image": "{{ shop.brand.cover_image }}",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
