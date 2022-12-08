@@ -13,16 +13,15 @@
         "1662755006af0b5e27-1": {
           "type": "text",
           "settings": {
-            "text": "Check here for details and stuff",
+            "text": "Looking for more swag?",
             "text_style": "body"
           }
         },
         "1662755006af0b5e27-2": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "SHOP for more",
+            "button_link_1": "https:\/\/linuxfoundation.store\/",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
