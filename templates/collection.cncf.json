@@ -19,6 +19,7 @@
         },
         "1662755006af0b5e27-2": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "SHOP for more",
             "button_link_1": "https:\/\/linuxfoundation.store\/",
