@@ -13,6 +13,7 @@
         },
         "c924456a-e588-478a-8588-737db770b993": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "",
             "text_style": "body"
