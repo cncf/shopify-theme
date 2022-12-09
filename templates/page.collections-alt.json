@@ -100,6 +100,216 @@
           "settings": {
             "collection": "cloudevents"
           }
+        },
+        "9fbf2517-55a8-4080-958f-99e323cd35bd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cloudnative-tv"
+          }
+        },
+        "1fdca377-1d52-4475-ba26-2de2b4c0309a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cni"
+          }
+        },
+        "08147058-c1b8-4bbb-ab8b-41e382936b23": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "container-d"
+          }
+        },
+        "3e21806e-bccf-40cb-a158-a75f8a514f46": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "contour"
+          }
+        },
+        "062db5bd-2be8-4dfc-9346-0e597fb1563b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "core-dns"
+          }
+        },
+        "a296b5dd-e778-4ce5-932d-d6531e967369": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cortex-1"
+          }
+        },
+        "c6311fec-0ed7-42b3-9d54-2dd88dd673fe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cri-o"
+          }
+        },
+        "2d5f9faa-8c02-4a47-a82b-15ae972371b4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "crossplane"
+          }
+        },
+        "cac3092c-cbf0-499e-9f94-7c9367c8dba6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "curiefense"
+          }
+        },
+        "90f3295a-a212-41ba-9ecf-667a5740e061": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dapr"
+          }
+        },
+        "8182e49e-a4bb-4f7e-8f1a-3028ccdfd061": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dex"
+          }
+        },
+        "819d35a5-6520-4322-9b8f-e25b16451397": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dragonfly"
+          }
+        },
+        "e66a3e97-82f2-405c-bba3-839a810381e8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "envoy"
+          }
+        },
+        "ffdd969c-d82e-401a-a578-582923c43479": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "etcd"
+          }
+        },
+        "7570a9ee-65e3-4e0a-9cd8-2feddb4bfc27": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "falco-1"
+          }
+        },
+        "f2e18689-1067-4bdf-986d-b2e653e3985e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fluentd"
+          }
+        },
+        "12ccacfe-eb64-4b93-9ad3-2b650339825f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "flux"
+          }
+        },
+        "84052624-0c30-4d46-8338-7577e2f54d4f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "grpc"
+          }
+        },
+        "67e1355f-7866-4c43-ace1-e85be7e0c9d0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "harbor"
+          }
+        },
+        "3106d661-433c-426f-b598-6e69e5558810": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "helm"
+          }
+        },
+        "5ef8293a-b36a-47ba-8117-691ed3e2f5db": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "in-toto"
+          }
+        },
+        "a435191b-3d5b-46e9-8bab-a2435ef3ca0f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "istio"
+          }
+        },
+        "0e0b96c7-4e44-4078-9baa-b99245e003a6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jaeger"
+          }
+        },
+        "ce557a40-7246-4b7f-8f0b-86ccbebf0ad3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "k3s"
+          }
+        },
+        "4f1388f5-4402-4114-94f7-aa4f19afb9d6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "keda"
+          }
+        },
+        "cc38da10-484d-4995-95c5-ae2d330ff683": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "keptn"
+          }
+        },
+        "fc54be05-6f71-44b4-a73b-2c386f045b32": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "keylime"
+          }
+        },
+        "ea14ca95-8173-436d-b9cd-a7104e05e49e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "knative"
+          }
+        },
+        "212d683f-8fb3-435d-a63d-3b9cebf0da52": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kube-ovn"
+          }
+        },
+        "8eef061d-c5a2-4f72-9b66-9472642184ee": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kubeedge"
+          }
+        },
+        "f8de7721-6747-487a-88aa-687473088b61": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kubernetes"
+          }
+        },
+        "7500f4ca-0a78-4447-a7e0-c34bee9e5fba": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kubevirt"
+          }
+        },
+        "2e56a127-9ab0-4b4b-ba52-c1f9a9f94a46": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kudo"
+          }
+        },
+        "5081bc8c-5638-4f60-bfcc-adeba28001d2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kuma"
+          }
+        },
+        "b64d066d-d4d8-4120-9de7-f10141f1847d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kyverno"
+          }
         }
       },
       "block_order": [
@@ -117,7 +327,42 @@
         "dc1aa208-3a14-4728-b901-add89e7b5909",
         "07df4369-d5a5-425f-969f-de351fb30725",
         "7d67f741-06a0-4bf9-9136-6737e108f6e6",
-        "aabd54cd-9ecc-4f84-8ec7-850865d14784"
+        "aabd54cd-9ecc-4f84-8ec7-850865d14784",
+        "9fbf2517-55a8-4080-958f-99e323cd35bd",
+        "1fdca377-1d52-4475-ba26-2de2b4c0309a",
+        "08147058-c1b8-4bbb-ab8b-41e382936b23",
+        "3e21806e-bccf-40cb-a158-a75f8a514f46",
+        "062db5bd-2be8-4dfc-9346-0e597fb1563b",
+        "a296b5dd-e778-4ce5-932d-d6531e967369",
+        "c6311fec-0ed7-42b3-9d54-2dd88dd673fe",
+        "2d5f9faa-8c02-4a47-a82b-15ae972371b4",
+        "cac3092c-cbf0-499e-9f94-7c9367c8dba6",
+        "90f3295a-a212-41ba-9ecf-667a5740e061",
+        "8182e49e-a4bb-4f7e-8f1a-3028ccdfd061",
+        "819d35a5-6520-4322-9b8f-e25b16451397",
+        "e66a3e97-82f2-405c-bba3-839a810381e8",
+        "ffdd969c-d82e-401a-a578-582923c43479",
+        "7570a9ee-65e3-4e0a-9cd8-2feddb4bfc27",
+        "f2e18689-1067-4bdf-986d-b2e653e3985e",
+        "12ccacfe-eb64-4b93-9ad3-2b650339825f",
+        "84052624-0c30-4d46-8338-7577e2f54d4f",
+        "67e1355f-7866-4c43-ace1-e85be7e0c9d0",
+        "3106d661-433c-426f-b598-6e69e5558810",
+        "5ef8293a-b36a-47ba-8117-691ed3e2f5db",
+        "a435191b-3d5b-46e9-8bab-a2435ef3ca0f",
+        "0e0b96c7-4e44-4078-9baa-b99245e003a6",
+        "ce557a40-7246-4b7f-8f0b-86ccbebf0ad3",
+        "4f1388f5-4402-4114-94f7-aa4f19afb9d6",
+        "cc38da10-484d-4995-95c5-ae2d330ff683",
+        "fc54be05-6f71-44b4-a73b-2c386f045b32",
+        "ea14ca95-8173-436d-b9cd-a7104e05e49e",
+        "212d683f-8fb3-435d-a63d-3b9cebf0da52",
+        "8eef061d-c5a2-4f72-9b66-9472642184ee",
+        "f8de7721-6747-487a-88aa-687473088b61",
+        "7500f4ca-0a78-4447-a7e0-c34bee9e5fba",
+        "2e56a127-9ab0-4b4b-ba52-c1f9a9f94a46",
+        "5081bc8c-5638-4f60-bfcc-adeba28001d2",
+        "b64d066d-d4d8-4120-9de7-f10141f1847d"
       ],
       "settings": {
         "title": "All Projects & Brands",
@@ -131,135 +376,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "a4a1b454-5e46-4fe4-954e-db97fcda4801": {
-      "type": "collection-list",
-      "blocks": {
-        "template--17209567248682__a4a1b454-5e46-4fe4-954e-db97fcda4801-167061183470f06250-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cloudnative-tv"
-          }
-        },
-        "template--17209567248682__a4a1b454-5e46-4fe4-954e-db97fcda4801-167061183470f06250-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--17209567248682__a4a1b454-5e46-4fe4-954e-db97fcda4801-167061183470f06250-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "5a6e2472-c962-4cb1-96fc-82aaced99e6d": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "1a8c195d-b61b-438b-b7e3-ccdb9867ab74": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "4d1c4557-6c07-4acf-92bc-6cb1a50e7980": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "a2d983d6-25a1-40a7-971e-9de4d9ce402c": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "4a26fdf5-fd8d-452c-979a-18cb1467dff3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "fddf52fd-6eec-415b-aa84-fd0ebe8ea61f": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "5e5cf672-7841-4aa7-8287-6798b44f9a4a": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "63cb750e-bc27-46a4-8f6a-80acd5aa6e48": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "17374e3a-ecfd-4242-965d-67e8b588348d": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "e558b197-be18-4d67-8e70-533859da91c9": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "fb9427d4-73ba-4fe6-828d-f3094c4e229e": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "07ebed7d-f1ad-4233-8621-29ac32ed260b": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17209567248682__a4a1b454-5e46-4fe4-954e-db97fcda4801-167061183470f06250-0",
-        "template--17209567248682__a4a1b454-5e46-4fe4-954e-db97fcda4801-167061183470f06250-1",
-        "template--17209567248682__a4a1b454-5e46-4fe4-954e-db97fcda4801-167061183470f06250-2",
-        "5a6e2472-c962-4cb1-96fc-82aaced99e6d",
-        "1a8c195d-b61b-438b-b7e3-ccdb9867ab74",
-        "4d1c4557-6c07-4acf-92bc-6cb1a50e7980",
-        "a2d983d6-25a1-40a7-971e-9de4d9ce402c",
-        "4a26fdf5-fd8d-452c-979a-18cb1467dff3",
-        "fddf52fd-6eec-415b-aa84-fd0ebe8ea61f",
-        "5e5cf672-7841-4aa7-8287-6798b44f9a4a",
-        "63cb750e-bc27-46a4-8f6a-80acd5aa6e48",
-        "17374e3a-ecfd-4242-965d-67e8b588348d",
-        "e558b197-be18-4d67-8e70-533859da91c9",
-        "fb9427d4-73ba-4fe6-828d-f3094c4e229e",
-        "07ebed7d-f1ad-4233-8621-29ac32ed260b"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "portrait",
-        "columns_desktop": 5,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
-    "f1397d6b-8ebf-4afb-8a84-745390e02510",
-    "a4a1b454-5e46-4fe4-954e-db97fcda4801"
+    "f1397d6b-8ebf-4afb-8a84-745390e02510"
   ]
 }
