@@ -1,6 +1,11 @@
+{%- comment %}<locksmith:aab6>{% endcomment -%}
+  {%- include 'locksmith' -%}
+{%- comment %}</locksmith:aab6>{% endcomment -%}
+
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head> 
+    {{ locksmith_initializations }}
     <script src='{{ 'product_restore_email.js' | asset_url }}' defer='defer' ></script> 
     <script id='em_product_variants' type='application/json'>
         {{ product.variants | json }}
@@ -37,7 +42,10 @@
     </title>
 
     {% if page_description %}
-      <meta name="description" content="{{ page_description | escape }}">
+      {%- comment %}<locksmith:74af>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
+        {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
+      {%- comment %}</locksmith:74af>{% endcomment -%}
     {% endif %}
 
     {% render 'meta-tags' %}

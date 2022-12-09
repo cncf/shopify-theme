@@ -107,9 +107,15 @@
             <ul id="product-grid" data-id="{{ section.id }}" class="
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
               grid--{{ section.settings.columns_desktop }}-col-desktop">
+              {%- comment %}<locksmith:8eb9>{% endcomment -%}
+                {%- assign locksmith_1c12_forloop__size = 0 %}{%- for product in collection.products -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collection, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_1c12_forloop__size = locksmith_1c12_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_1c12_forloop__index = nil -%}
+              {%- comment %}</locksmith:8eb9>{% endcomment -%}
               {%- for product in collection.products -%}
+                {%- comment %}<locksmith:5448>{% endcomment -%}
+                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_1c12_forloop__index == nil %}{% assign locksmith_1c12_forloop__index = 1 %}{% assign locksmith_1c12_forloop__index0 = 0 %}{% else %}{% assign locksmith_1c12_forloop__index = locksmith_1c12_forloop__index | plus: 1 %}{% assign locksmith_1c12_forloop__index0 = locksmith_1c12_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_1c12_forloop__index == 1 %}{% assign locksmith_1c12_forloop__first = true %}{% else %}{% assign locksmith_1c12_forloop__first = false %}{% endif %}{% if locksmith_1c12_forloop__index == locksmith_1c12_forloop__size %}{% assign locksmith_1c12_forloop__last = true %}{% else %}{% assign locksmith_1c12_forloop__last = false %}{% endif %}{% assign locksmith_1c12_forloop__rindex = locksmith_1c12_forloop__size | minus: locksmith_1c12_forloop__index | minus: 1 %}{% assign locksmith_1c12_forloop__rindex0 = locksmith_1c12_forloop__size | minus: locksmith_1c12_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+                {%- comment %}</locksmith:5448>{% endcomment -%}
                 {% assign lazy_load = false %}
-                {%- if forloop.index > 2 -%}
+                {%- if locksmith_1c12_forloop__index > 2 -%}
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
                 <li class="grid__item">

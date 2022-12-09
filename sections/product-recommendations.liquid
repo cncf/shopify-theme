@@ -26,6 +26,9 @@
       <h2 class="product-recommendations__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
       <ul class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list">
         {% for recommendation in recommendations.products %}
+          {%- comment %}<locksmith:0603>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recommendation, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:0603>{% endcomment -%}
           <li class="grid__item">
             {% render 'card-product',
               card_product: recommendation,

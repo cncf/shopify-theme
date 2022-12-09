@@ -138,10 +138,16 @@
               <div class="menu-drawer__navigation-container">
                 <nav class="menu-drawer__navigation">
                   <ul class="menu-drawer__menu has-submenu list-menu" role="list">
+                    {%- comment %}<locksmith:2270>{% endcomment -%}
+                      {%- assign locksmith_17cb_forloop__size = 0 %}{%- for link in section.settings.menu.links -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: section.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_17cb_forloop__size = locksmith_17cb_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_17cb_forloop__index = nil -%}
+                    {%- comment %}</locksmith:2270>{% endcomment -%}
                     {%- for link in section.settings.menu.links -%}
+                      {%- comment %}<locksmith:ba6c>{% endcomment -%}
+                        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: section.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_17cb_forloop__index == nil %}{% assign locksmith_17cb_forloop__index = 1 %}{% assign locksmith_17cb_forloop__index0 = 0 %}{% else %}{% assign locksmith_17cb_forloop__index = locksmith_17cb_forloop__index | plus: 1 %}{% assign locksmith_17cb_forloop__index0 = locksmith_17cb_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_17cb_forloop__index == 1 %}{% assign locksmith_17cb_forloop__first = true %}{% else %}{% assign locksmith_17cb_forloop__first = false %}{% endif %}{% if locksmith_17cb_forloop__index == locksmith_17cb_forloop__size %}{% assign locksmith_17cb_forloop__last = true %}{% else %}{% assign locksmith_17cb_forloop__last = false %}{% endif %}{% assign locksmith_17cb_forloop__rindex = locksmith_17cb_forloop__size | minus: locksmith_17cb_forloop__index | minus: 1 %}{% assign locksmith_17cb_forloop__rindex0 = locksmith_17cb_forloop__size | minus: locksmith_17cb_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+                      {%- comment %}</locksmith:ba6c>{% endcomment -%}
                       <li>
                         {%- if link.links != blank -%}
-                          <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
+                          <details id="Details-menu-drawer-menu-item-{{ locksmith_17cb_forloop__index }}">
                             <summary class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
                               {{ link.title | escape }}
                               {% render 'icon-arrow' %}
@@ -154,14 +160,20 @@
                                   {{ link.title | escape }}
                                 </button>
                                 <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
+                                  {%- comment %}<locksmith:7b7f>{% endcomment -%}
+                                    {%- assign locksmith_cd42_forloop__size = 0 %}{%- for childlink in link.links -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: childlink, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_cd42_forloop__size = locksmith_cd42_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_cd42_forloop__index = nil -%}
+                                  {%- comment %}</locksmith:7b7f>{% endcomment -%}
                                   {%- for childlink in link.links -%}
+                                    {%- comment %}<locksmith:b0e4>{% endcomment -%}
+                                      {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: childlink, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_cd42_forloop__index == nil %}{% assign locksmith_cd42_forloop__index = 1 %}{% assign locksmith_cd42_forloop__index0 = 0 %}{% else %}{% assign locksmith_cd42_forloop__index = locksmith_cd42_forloop__index | plus: 1 %}{% assign locksmith_cd42_forloop__index0 = locksmith_cd42_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_cd42_forloop__index == 1 %}{% assign locksmith_cd42_forloop__first = true %}{% else %}{% assign locksmith_cd42_forloop__first = false %}{% endif %}{% if locksmith_cd42_forloop__index == locksmith_cd42_forloop__size %}{% assign locksmith_cd42_forloop__last = true %}{% else %}{% assign locksmith_cd42_forloop__last = false %}{% endif %}{% assign locksmith_cd42_forloop__rindex = locksmith_cd42_forloop__size | minus: locksmith_cd42_forloop__index | minus: 1 %}{% assign locksmith_cd42_forloop__rindex0 = locksmith_cd42_forloop__size | minus: locksmith_cd42_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+                                    {%- comment %}</locksmith:b0e4>{% endcomment -%}
                                     <li>
                                       {%- if childlink.links == blank -%}
                                         <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                           {{ childlink.title | escape }}
                                         </a>
                                       {%- else -%}
-                                        <details id="Details-menu-drawer-submenu-{{ forloop.index }}">
+                                        <details id="Details-menu-drawer-submenu-{{ locksmith_cd42_forloop__index }}">
                                           <summary class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
                                             {{ childlink.title | escape }}
                                             {% render 'icon-arrow' %}
@@ -174,6 +186,9 @@
                                             </button>
                                             <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                               {%- for grandchildlink in childlink.links -%}
+                                                {%- comment %}<locksmith:784e>{% endcomment -%}
+                                                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: grandchildlink, subject_parent: childlink, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                                                {%- comment %}</locksmith:784e>{% endcomment -%}
                                                 <li>
                                                   <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
                                                     {{ grandchildlink.title | escape }}
@@ -397,30 +412,45 @@
       {%- if section.settings.menu_type_desktop == 'dropdown' -%}
         <nav class="header__inline-menu">
           <ul class="list-menu list-menu--inline" role="list">
+            {%- comment %}<locksmith:7c4b>{% endcomment -%}
+              {%- assign locksmith_1b56_forloop__size = 0 %}{%- for link in section.settings.menu.links -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: section.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_1b56_forloop__size = locksmith_1b56_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_1b56_forloop__index = nil -%}
+            {%- comment %}</locksmith:7c4b>{% endcomment -%}
             {%- for link in section.settings.menu.links -%}
+              {%- comment %}<locksmith:9623>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: section.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_1b56_forloop__index == nil %}{% assign locksmith_1b56_forloop__index = 1 %}{% assign locksmith_1b56_forloop__index0 = 0 %}{% else %}{% assign locksmith_1b56_forloop__index = locksmith_1b56_forloop__index | plus: 1 %}{% assign locksmith_1b56_forloop__index0 = locksmith_1b56_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_1b56_forloop__index == 1 %}{% assign locksmith_1b56_forloop__first = true %}{% else %}{% assign locksmith_1b56_forloop__first = false %}{% endif %}{% if locksmith_1b56_forloop__index == locksmith_1b56_forloop__size %}{% assign locksmith_1b56_forloop__last = true %}{% else %}{% assign locksmith_1b56_forloop__last = false %}{% endif %}{% assign locksmith_1b56_forloop__rindex = locksmith_1b56_forloop__size | minus: locksmith_1b56_forloop__index | minus: 1 %}{% assign locksmith_1b56_forloop__rindex0 = locksmith_1b56_forloop__size | minus: locksmith_1b56_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:9623>{% endcomment -%}
               <li>
                 {%- if link.links != blank -%}
                   <header-menu>
-                    <details id="Details-HeaderMenu-{{ forloop.index }}">
+                    <details id="Details-HeaderMenu-{{ locksmith_1b56_forloop__index }}">
                       <summary class="header__menu-item list-menu__item link focus-inset">
                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                         {% render 'icon-caret' %}
                       </summary>
-                      <ul id="HeaderMenu-MenuList-{{ forloop.index }}" class="header__submenu list-menu list-menu--disclosure gradient caption-large motion-reduce global-settings-popup" role="list" tabindex="-1">
+                      <ul id="HeaderMenu-MenuList-{{ locksmith_1b56_forloop__index }}" class="header__submenu list-menu list-menu--disclosure gradient caption-large motion-reduce global-settings-popup" role="list" tabindex="-1">
+                        {%- comment %}<locksmith:b557>{% endcomment -%}
+                          {%- assign locksmith_0306_forloop__size = 0 %}{%- for childlink in link.links -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: childlink, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_0306_forloop__size = locksmith_0306_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_0306_forloop__index = nil -%}
+                        {%- comment %}</locksmith:b557>{% endcomment -%}
                         {%- for childlink in link.links -%}
+                          {%- comment %}<locksmith:06e4>{% endcomment -%}
+                            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: childlink, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_0306_forloop__index == nil %}{% assign locksmith_0306_forloop__index = 1 %}{% assign locksmith_0306_forloop__index0 = 0 %}{% else %}{% assign locksmith_0306_forloop__index = locksmith_0306_forloop__index | plus: 1 %}{% assign locksmith_0306_forloop__index0 = locksmith_0306_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_0306_forloop__index == 1 %}{% assign locksmith_0306_forloop__first = true %}{% else %}{% assign locksmith_0306_forloop__first = false %}{% endif %}{% if locksmith_0306_forloop__index == locksmith_0306_forloop__size %}{% assign locksmith_0306_forloop__last = true %}{% else %}{% assign locksmith_0306_forloop__last = false %}{% endif %}{% assign locksmith_0306_forloop__rindex = locksmith_0306_forloop__size | minus: locksmith_0306_forloop__index | minus: 1 %}{% assign locksmith_0306_forloop__rindex0 = locksmith_0306_forloop__size | minus: locksmith_0306_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+                          {%- comment %}</locksmith:06e4>{% endcomment -%}
                           <li>
                             {%- if childlink.links == blank -%}
                               <a href="{{ childlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                 {{ childlink.title | escape }}
                               </a>
                             {%- else -%}
-                              <details id="Details-HeaderSubMenu-{{ forloop.index }}">
+                              <details id="Details-HeaderSubMenu-{{ locksmith_0306_forloop__index }}">
                                 <summary class="header__menu-item link link--text list-menu__item focus-inset caption-large">
                                   <span>{{ childlink.title | escape }}</span>
                                   {% render 'icon-caret' %}
                                 </summary>
-                                <ul id="HeaderMenu-SubMenuList-{{ forloop.index }}" class="header__submenu list-menu motion-reduce">
+                                <ul id="HeaderMenu-SubMenuList-{{ locksmith_0306_forloop__index }}" class="header__submenu list-menu motion-reduce">
                                   {%- for grandchildlink in childlink.links -%}
+                                    {%- comment %}<locksmith:16b3>{% endcomment -%}
+                                      {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: grandchildlink, subject_parent: childlink, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                                    {%- comment %}</locksmith:16b3>{% endcomment -%}
                                     <li>
                                       <a href="{{ grandchildlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if grandchildlink.current %} list-menu__item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
                                         {{ grandchildlink.title | escape }}
@@ -447,18 +477,27 @@
       {%- else -%}
         <nav class="header__inline-menu">
           <ul class="list-menu list-menu--inline" role="list">
+            {%- comment %}<locksmith:55ed>{% endcomment -%}
+              {%- assign locksmith_674f_forloop__size = 0 %}{%- for link in section.settings.menu.links -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: section.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_674f_forloop__size = locksmith_674f_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_674f_forloop__index = nil -%}
+            {%- comment %}</locksmith:55ed>{% endcomment -%}
             {%- for link in section.settings.menu.links -%}
+              {%- comment %}<locksmith:8da2>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: section.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_674f_forloop__index == nil %}{% assign locksmith_674f_forloop__index = 1 %}{% assign locksmith_674f_forloop__index0 = 0 %}{% else %}{% assign locksmith_674f_forloop__index = locksmith_674f_forloop__index | plus: 1 %}{% assign locksmith_674f_forloop__index0 = locksmith_674f_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_674f_forloop__index == 1 %}{% assign locksmith_674f_forloop__first = true %}{% else %}{% assign locksmith_674f_forloop__first = false %}{% endif %}{% if locksmith_674f_forloop__index == locksmith_674f_forloop__size %}{% assign locksmith_674f_forloop__last = true %}{% else %}{% assign locksmith_674f_forloop__last = false %}{% endif %}{% assign locksmith_674f_forloop__rindex = locksmith_674f_forloop__size | minus: locksmith_674f_forloop__index | minus: 1 %}{% assign locksmith_674f_forloop__rindex0 = locksmith_674f_forloop__size | minus: locksmith_674f_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:8da2>{% endcomment -%}
               <li>
                 {%- if link.links != blank -%}
                   <header-menu>
-                    <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
+                    <details id="Details-HeaderMenu-{{ locksmith_674f_forloop__index }}" class="mega-menu">
                       <summary class="header__menu-item list-menu__item link focus-inset">
                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                         {% render 'icon-caret' %}
                       </summary>
-                      <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
+                      <div id="MegaMenu-Content-{{ locksmith_674f_forloop__index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
                         <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
                           {%- for childlink in link.links -%}
+                            {%- comment %}<locksmith:7d77>{% endcomment -%}
+                              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: childlink, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                            {%- comment %}</locksmith:7d77>{% endcomment -%}
                             <li>
                               <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                 {{ childlink.title | escape }}
@@ -466,6 +505,9 @@
                               {%- if childlink.links != blank -%}
                                 <ul class="list-unstyled" role="list">
                                   {%- for grandchildlink in childlink.links -%}
+                                    {%- comment %}<locksmith:cba6>{% endcomment -%}
+                                      {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: grandchildlink, subject_parent: childlink, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                                    {%- comment %}</locksmith:cba6>{% endcomment -%}
                                     <li>
                                       <a href="{{ grandchildlink.url }}" class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
                                         {{ grandchildlink.title | escape }}
