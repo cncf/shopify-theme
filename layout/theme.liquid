@@ -361,7 +361,8 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-  </head>
+  {{ 'zify-sizechart.css' | asset_url | stylesheet_tag }}
+</head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -418,5 +419,6 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  </body>
+  <script src='{{ 'zify-sizechart.js' | asset_url }}' defer='defer'></script>
+</body>
 </html>
