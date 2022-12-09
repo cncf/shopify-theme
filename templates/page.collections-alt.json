@@ -2,13 +2,139 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 80,
         "padding_bottom": 60
       }
+    },
+    "f1397d6b-8ebf-4afb-8a84-745390e02510": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17209567248682__f1397d6b-8ebf-4afb-8a84-745390e02510-167061183470f06250-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "argo"
+          }
+        },
+        "template--17209567248682__f1397d6b-8ebf-4afb-8a84-745390e02510-167061183470f06250-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "artifact-hub"
+          }
+        },
+        "template--17209567248682__f1397d6b-8ebf-4afb-8a84-745390e02510-167061183470f06250-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "athenz"
+          }
+        },
+        "420551ef-07db-4098-b8ef-be6737360d84": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "backstage"
+          }
+        },
+        "322b7dae-8532-4c38-9ec7-c76577ae912e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bfe"
+          }
+        },
+        "b77ddd33-585f-495b-8ef1-65f0865b9d03": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "brigade"
+          }
+        },
+        "bf7f93d7-87e4-4a9e-bf1e-e8a986b4e287": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "buildpacks"
+          }
+        },
+        "8211fd20-e0fe-475c-9d85-64a215942c8a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cdk8s"
+          }
+        },
+        "93cc2b9c-38c1-4263-98c1-73fe938ae485": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cert-manager"
+          }
+        },
+        "a5173873-280d-4179-95d2-e8a17f692f77": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chaos-mesh"
+          }
+        },
+        "90c0b958-d399-4e9c-8053-93f569dc2128": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chubaofs"
+          }
+        },
+        "dc1aa208-3a14-4728-b901-add89e7b5909": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cilium"
+          }
+        },
+        "07df4369-d5a5-425f-969f-de351fb30725": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cloud-custodian"
+          }
+        },
+        "7d67f741-06a0-4bf9-9136-6737e108f6e6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cncf"
+          }
+        },
+        "aabd54cd-9ecc-4f84-8ec7-850865d14784": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cloudevents"
+          }
+        }
+      },
+      "block_order": [
+        "template--17209567248682__f1397d6b-8ebf-4afb-8a84-745390e02510-167061183470f06250-0",
+        "template--17209567248682__f1397d6b-8ebf-4afb-8a84-745390e02510-167061183470f06250-1",
+        "template--17209567248682__f1397d6b-8ebf-4afb-8a84-745390e02510-167061183470f06250-2",
+        "420551ef-07db-4098-b8ef-be6737360d84",
+        "322b7dae-8532-4c38-9ec7-c76577ae912e",
+        "b77ddd33-585f-495b-8ef1-65f0865b9d03",
+        "bf7f93d7-87e4-4a9e-bf1e-e8a986b4e287",
+        "8211fd20-e0fe-475c-9d85-64a215942c8a",
+        "93cc2b9c-38c1-4263-98c1-73fe938ae485",
+        "a5173873-280d-4179-95d2-e8a17f692f77",
+        "90c0b958-d399-4e9c-8053-93f569dc2128",
+        "dc1aa208-3a14-4728-b901-add89e7b5909",
+        "07df4369-d5a5-425f-969f-de351fb30725",
+        "7d67f741-06a0-4bf9-9136-6737e108f6e6",
+        "aabd54cd-9ecc-4f84-8ec7-850865d14784"
+      ],
+      "settings": {
+        "title": "All Projects & Brands",
+        "heading_size": "h1",
+        "image_ratio": "portrait",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "f1397d6b-8ebf-4afb-8a84-745390e02510"
   ]
 }
