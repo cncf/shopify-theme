@@ -376,10 +376,282 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "d28a4c9b-e2bd-4fc1-9601-f0118a3ccd97": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17209567248682__d28a4c9b-e2bd-4fc1-9601-f0118a3ccd97-167061233890c2d884-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "linkerd"
+          }
+        },
+        "template--17209567248682__d28a4c9b-e2bd-4fc1-9601-f0118a3ccd97-167061233890c2d884-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "litmus"
+          }
+        },
+        "template--17209567248682__d28a4c9b-e2bd-4fc1-9601-f0118a3ccd97-167061233890c2d884-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "longhorn"
+          }
+        },
+        "4dda81a6-3f07-4077-9fe1-e388b8603896": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "metal3"
+          }
+        },
+        "1863e5c6-d952-43ac-bf4d-a7d6080fec48": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nats"
+          }
+        },
+        "0e5057e6-e79f-4e30-a30d-2718db5cb337": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "network-service-mesh"
+          }
+        },
+        "2a2de5a5-a0cb-4990-9222-5efcaa0302d1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "notary"
+          }
+        },
+        "9ae73ef3-4de3-4960-8185-55e25f59156f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "opa"
+          }
+        },
+        "e879b48a-5ae3-4574-a598-6a01e972b061": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "open-service-mesh"
+          }
+        },
+        "43fbec20-9568-4609-af88-21039cb0d6f2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "open-yurt"
+          }
+        },
+        "fbc25b7f-4e7b-404b-a8c9-6f0d2df8f20f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "openebs"
+          }
+        },
+        "c3ca245f-e5ac-4b5d-a5e2-2f0163569a91": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "openmetrics"
+          }
+        },
+        "ceea5e29-f4f2-41ad-be96-501d7524528d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "opentelemetry"
+          }
+        },
+        "87e00de4-72f2-43e5-af4b-115da6b59163": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "opentracing"
+          }
+        },
+        "a15591a6-2361-4d17-a5a1-a5b707edef9e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "operator-framework"
+          }
+        },
+        "5a638b91-af99-44f0-bb61-0b771379c89b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "parsec"
+          }
+        },
+        "99602831-4a3d-4699-ad9c-fbd48be0cbd7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "porter"
+          }
+        },
+        "9d9ed6aa-8a1e-4f69-bd0f-04956e4c8b87": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pravega"
+          }
+        },
+        "df77b82a-4474-41b1-8591-5396554d7272": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "prometheus"
+          }
+        },
+        "5bace93e-6e10-421d-a725-66cca4f053d3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rook"
+          }
+        },
+        "52ba667e-7ee0-4917-be5c-5eff875eb6ec": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "schemahero"
+          }
+        },
+        "371577e0-6478-4c03-8b5c-c6d8f459b393": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "serverless-workflow-specification"
+          }
+        },
+        "4782be10-329c-4e10-89a5-9bc0ff67b0ad": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "service-mesh-interface"
+          }
+        },
+        "23319290-131a-4b4e-a6bb-04ec1f5a480b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spiffe-1"
+          }
+        },
+        "1477c106-acc2-4411-bf83-f583c6502b8d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spire-1"
+          }
+        },
+        "c2ed935f-eb1f-4f11-9962-32d71e57e3c8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "strimzi"
+          }
+        },
+        "4389e7d5-867d-4b77-bb57-e8193e27a9a6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tag-security"
+          }
+        },
+        "7fa3e470-3da8-4273-ba2a-a59dc9b2fd8f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "telepresence"
+          }
+        },
+        "2d1e75d7-f5d2-4195-9a12-81416e1d67d7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "thanos"
+          }
+        },
+        "e8553725-c3d2-4976-97b4-defe52548d81": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tikv"
+          }
+        },
+        "dab2bfba-93c2-48f9-bc47-326cb8f0d983": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tinkerbell"
+          }
+        },
+        "afb51447-ee4d-4703-82b1-b8336c35e2f2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tremor"
+          }
+        },
+        "19eac3ff-8ddc-4de1-959f-1c49213d3773": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tuf"
+          }
+        },
+        "fb9f060b-1691-43bc-b12a-12eae34723f1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "virtual-kubelet"
+          }
+        },
+        "caee71e7-37c6-4bde-82e4-4cbccf3be9b0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vitess"
+          }
+        },
+        "2572c900-7ee4-44e7-a3f5-8e2fc93992fc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "volcano"
+          }
+        }
+      },
+      "block_order": [
+        "template--17209567248682__d28a4c9b-e2bd-4fc1-9601-f0118a3ccd97-167061233890c2d884-0",
+        "template--17209567248682__d28a4c9b-e2bd-4fc1-9601-f0118a3ccd97-167061233890c2d884-1",
+        "template--17209567248682__d28a4c9b-e2bd-4fc1-9601-f0118a3ccd97-167061233890c2d884-2",
+        "4dda81a6-3f07-4077-9fe1-e388b8603896",
+        "1863e5c6-d952-43ac-bf4d-a7d6080fec48",
+        "0e5057e6-e79f-4e30-a30d-2718db5cb337",
+        "2a2de5a5-a0cb-4990-9222-5efcaa0302d1",
+        "9ae73ef3-4de3-4960-8185-55e25f59156f",
+        "e879b48a-5ae3-4574-a598-6a01e972b061",
+        "43fbec20-9568-4609-af88-21039cb0d6f2",
+        "fbc25b7f-4e7b-404b-a8c9-6f0d2df8f20f",
+        "c3ca245f-e5ac-4b5d-a5e2-2f0163569a91",
+        "ceea5e29-f4f2-41ad-be96-501d7524528d",
+        "87e00de4-72f2-43e5-af4b-115da6b59163",
+        "a15591a6-2361-4d17-a5a1-a5b707edef9e",
+        "5a638b91-af99-44f0-bb61-0b771379c89b",
+        "99602831-4a3d-4699-ad9c-fbd48be0cbd7",
+        "9d9ed6aa-8a1e-4f69-bd0f-04956e4c8b87",
+        "df77b82a-4474-41b1-8591-5396554d7272",
+        "5bace93e-6e10-421d-a725-66cca4f053d3",
+        "52ba667e-7ee0-4917-be5c-5eff875eb6ec",
+        "371577e0-6478-4c03-8b5c-c6d8f459b393",
+        "4782be10-329c-4e10-89a5-9bc0ff67b0ad",
+        "23319290-131a-4b4e-a6bb-04ec1f5a480b",
+        "1477c106-acc2-4411-bf83-f583c6502b8d",
+        "c2ed935f-eb1f-4f11-9962-32d71e57e3c8",
+        "4389e7d5-867d-4b77-bb57-e8193e27a9a6",
+        "7fa3e470-3da8-4273-ba2a-a59dc9b2fd8f",
+        "2d1e75d7-f5d2-4195-9a12-81416e1d67d7",
+        "e8553725-c3d2-4976-97b4-defe52548d81",
+        "dab2bfba-93c2-48f9-bc47-326cb8f0d983",
+        "afb51447-ee4d-4703-82b1-b8336c35e2f2",
+        "19eac3ff-8ddc-4de1-959f-1c49213d3773",
+        "fb9f060b-1691-43bc-b12a-12eae34723f1",
+        "caee71e7-37c6-4bde-82e4-4cbccf3be9b0",
+        "2572c900-7ee4-44e7-a3f5-8e2fc93992fc"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "portrait",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "f1397d6b-8ebf-4afb-8a84-745390e02510"
+    "f1397d6b-8ebf-4afb-8a84-745390e02510",
+    "d28a4c9b-e2bd-4fc1-9601-f0118a3ccd97"
   ]
 }
