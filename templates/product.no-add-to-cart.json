@@ -47,8 +47,18 @@
           "settings": {
           }
         },
+        "a776d7cd-101b-4fa6-8ae9-9dd17757611a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "I'm interested!",
+            "icon": "heart",
+            "content": "<p>Click <a href=\"\/pages\/contact-us\" target=\"_blank\" title=\"Contact Us\">here<\/a> to enter your information.<\/p>",
+            "page": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false
           }
@@ -113,6 +123,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "a776d7cd-101b-4fa6-8ae9-9dd17757611a",
         "buy_buttons",
         "description",
         "collapsible-row-0",
