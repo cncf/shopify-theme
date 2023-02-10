@@ -3,7 +3,7 @@
   fiddle with what's below, but your changes will be reset the next time that
   Locksmith interacts with your shop.
 
-  Last updated: Fri, 09 Dec 2022 00:25:35 +0000
+  Last updated: Fri, 10 Feb 2023 00:17:38 +0000
   Integration version: v6.29
 {% endcomment -%}
 
@@ -30,8 +30,19 @@
           for (var i = 0; i < inputNodes.length; i++) {
             inputNodes[i].value = redirectUrl;
           }
-        </script>{%endif%}{%endcapture%}{%assign customer_login_form=locksmith_customer_login_form%}{%assign customer_register_form=locksmith_customer_register_form%}{%unless _lock_guest_content%}{%capture locksmith_guest_content%}{%if _lock_guest_content != blank%}{{_lock_guest_content}}{%else%}<p><strong>This content is protected</strong> - please log in with your customer account to continue.</p>
-{{customer_login_form}}{%endif%}{%endcapture%}{%endunless%}{%if locksmith_access_denied_content == blank%}{%capture locksmith_access_denied_content%}{%if _p%}{%if _lock_access_denied_content != blank%}{{_lock_access_denied_content}}{%else%}<p><strong>This content is protected, but it doesn't look like you have access.</strong> If you feel this is a mistake, please contact the store owner.</p>{%endif%}{%if locksmith_manual_lock%}<p><a href="#" onclick="window.parent.__locksmith_hide_frame(); return false;">&lsaquo; Back</a></p>{%endif%}{%elsif locksmith_requires_customer%}{{locksmith_guest_content}}{%else%}{%if _lock_access_denied_content != blank%}{{_lock_access_denied_content}}{%else%}<p><strong>This content is protected, but it doesn't look like you have access.</strong> If you feel this is a mistake, please contact the store owner.</p>{%endif%}{%endif%}{%if _l.name contains "Debut"%}<style>
+
+          document.querySelectorAll('a[data-locksmith][href*="/customer_identity/sso_hint"]').forEach(function(node) {
+            node.search = `return_to=${encodeURIComponent(window.location.href)}`;
+          });
+        </script>{%endif%}{%endcapture%}{%assign customer_login_form=locksmith_customer_login_form%}{%assign customer_register_form=locksmith_customer_register_form%}{%unless _lock_guest_content%}{%capture locksmith_guest_content%}{%if _lock_guest_content != blank%}{{_lock_guest_content}}{%else%}<div class="page-width">
+  <p>This content is protected. Please log in with your customer account to continue.</p>
+
+  <div>{{locksmith_customer_login_form}}</div>
+</div>{%endif%}{%endcapture%}{%endunless%}{%if locksmith_access_denied_content == blank%}{%capture locksmith_access_denied_content%}{%if _p%}{%if _lock_access_denied_content != blank%}{{_lock_access_denied_content}}{%else%}<div class="page-width">
+  <p>This content is protected, but it doesn’t look like you have access. If you feel this is a mistake, please contact the store owner.</p>
+</div>{%endif%}{%if locksmith_manual_lock%}<p><a href="#" onclick="window.parent.__locksmith_hide_frame(); return false;">&lsaquo; Back</a></p>{%endif%}{%elsif locksmith_requires_customer%}{{locksmith_guest_content}}{%else%}{%if _lock_access_denied_content != blank%}{{_lock_access_denied_content}}{%else%}<div class="page-width">
+  <p>This content is protected, but it doesn’t look like you have access. If you feel this is a mistake, please contact the store owner.</p>
+</div>{%endif%}{%endif%}{%if _l.name contains "Debut"%}<style>
             /* fix for Debut+Gempages, per Gempages technical support */
             html.gemapp.video {
               display: block;
