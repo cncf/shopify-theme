@@ -6,7 +6,25 @@
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head> 
     {{ locksmith_initializations }}
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
+      <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    {%- endunless -%}
+    
+    <title>
+      {{ page_title }}
+      {%- if current_tags %}
+        &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
+      {%- if current_page != 1 %}
+        &ndash; Page {{ current_page }}{% endif -%}
+      {%- unless page_title contains shop.name %}
+        &ndash; {{ shop.name }}{% endunless -%}
+    </title>
+    
     <script src="https://cmp.osano.com/16A0DbT9yDNIaQkvZ/c3494b1e-ff3a-436f-978d-842e9a0bed27/osano.js"></script>
 
     <!-- Google Tag Manager -->
@@ -16,7 +34,6 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-P4D6Z8Q');</script>
     <!-- End Google Tag Manager -->
-
     <script src='{{ 'product_restore_email.js' | asset_url }}' defer='defer' ></script> 
     <script id='em_product_variants' type='application/json'>
         {{ product.variants | json }}
@@ -27,41 +44,9 @@
     <script id='em_product_metafields' type='application/json'>
         {{ shop.metafields.email-sealapps-app.effective-time | json }}
     </script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="theme-color" content="">
-    <link rel="canonical" href="{{ canonical_url }}">
-    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
-
-    {%- if settings.favicon != blank -%}
-      <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
-    {%- endif -%}
-
-    {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
-      <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
-    {%- endunless -%}
-
-    <title>
-      {{ page_title }}
-      {%- if current_tags %}
-        &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
-      {%- if current_page != 1 %}
-        &ndash; Page {{ current_page }}{% endif -%}
-      {%- unless page_title contains shop.name %}
-        &ndash; {{ shop.name }}{% endunless -%}
-    </title>
-
-    {% if page_description %}
-      {%- comment %}<locksmith:74af>{% endcomment -%}
-        {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
-        {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
-      {%- comment %}</locksmith:74af>{% endcomment -%}
-    {% endif %}
-
-    {% render 'meta-tags' %}
-
+    
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    
     {{ content_for_header }}
 
     {%- liquid
@@ -373,7 +358,23 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-  {{ 'zify-sizechart.css' | asset_url | stylesheet_tag }}
+    
+    {{ 'zify-sizechart.css' | asset_url | stylesheet_tag }}
+    
+    <link rel="canonical" href="{{ canonical_url }}">
+    
+    {%- if settings.favicon != blank -%}
+      <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
+    {%- endif -%}
+
+    {% if page_description %}
+      {%- comment %}<locksmith:74af>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
+        {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
+      {%- comment %}</locksmith:74af>{% endcomment -%}
+    {% endif %}
+
+    {% render 'meta-tags' %}   
 </head>
 
   <body class="gradient">
