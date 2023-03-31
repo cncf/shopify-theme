@@ -337,6 +337,12 @@
             "collection": "kubernetes"
           }
         },
+        "b64d066d-d4d8-4120-9de7-f10141f1847d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kubevela"
+          }
+        },
         "7500f4ca-0a78-4447-a7e0-c34bee9e5fba": {
           "type": "featured_collection",
           "settings": {
@@ -353,12 +359,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "kuma"
-          }
-        },
-        "b64d066d-d4d8-4120-9de7-f10141f1847d": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kyverno"
           }
         }
       },
@@ -409,10 +409,10 @@
         "212d683f-8fb3-435d-a63d-3b9cebf0da52",
         "8eef061d-c5a2-4f72-9b66-9472642184ee",
         "f8de7721-6747-487a-88aa-687473088b61",
+        "b64d066d-d4d8-4120-9de7-f10141f1847d",
         "7500f4ca-0a78-4447-a7e0-c34bee9e5fba",
         "2e56a127-9ab0-4b4b-ba52-c1f9a9f94a46",
-        "5081bc8c-5638-4f60-bfcc-adeba28001d2",
-        "b64d066d-d4d8-4120-9de7-f10141f1847d"
+        "5081bc8c-5638-4f60-bfcc-adeba28001d2"
       ],
       "settings": {
         "title": "All Projects & Brands",
@@ -430,6 +430,12 @@
     "d28a4c9b-e2bd-4fc1-9601-f0118a3ccd97": {
       "type": "collection-list",
       "blocks": {
+        "8d9b74c3-7109-44d8-9bc0-e37957fe768b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kyverno"
+          }
+        },
         "template--17209567248682__d28a4c9b-e2bd-4fc1-9601-f0118a3ccd97-167061233890c2d884-0": {
           "type": "featured_collection",
           "settings": {
@@ -648,6 +654,7 @@
         }
       },
       "block_order": [
+        "8d9b74c3-7109-44d8-9bc0-e37957fe768b",
         "template--17209567248682__d28a4c9b-e2bd-4fc1-9601-f0118a3ccd97-167061233890c2d884-0",
         "template--17209567248682__d28a4c9b-e2bd-4fc1-9601-f0118a3ccd97-167061233890c2d884-1",
         "template--17209567248682__d28a4c9b-e2bd-4fc1-9601-f0118a3ccd97-167061233890c2d884-2",
