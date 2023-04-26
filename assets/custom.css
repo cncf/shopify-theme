@@ -40,7 +40,6 @@ slideshow-component .slideshow__text.banner__box .banner__heading {
     color: black;
 }
 
-
 .button,
 .customer button {
     border-radius: 5px;
@@ -87,7 +86,6 @@ slideshow-component .slideshow__text.banner__box {
     max-width: 65rem;
 }
 
-
 slideshow-component .banner__box .banner__heading+* {
     margin-top: 0rem;
 }
@@ -132,6 +130,35 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
 
 .collection .collection__title h2.title {
     text-transform: uppercase;
+}
+
+.hub-button {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    border-radius: 3px;
+    border: 1px solid #FFF;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.02em;
+    background-color: unset;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    transition: all 0.25s ease-out;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: calc(614px - 15px - 15px); // social-links
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hub-button&:hover {
+    border: 1px solid $link-color;
+    background-color: $link-color;
 }
 
 /* UPTO IPHONE 8 */
@@ -237,6 +264,12 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
     .page-width--narrow h2 {
         font-size: calc(var(--font-heading-scale) * 3.4rem)
     }
+    
+    .hub-button {
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+
 }
 
 /* Large Desktop only  */
@@ -249,3 +282,5 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
         font-size: 1.6rem;
     }
 }
+
+
