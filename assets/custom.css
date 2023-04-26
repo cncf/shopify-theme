@@ -178,6 +178,12 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
     }
 }
 
+@media (min-width: 750px) {
+    .hub-button {
+        margin-top: 30px;
+    }
+}
+
 /* DESKTOP  */
 @media (min-width: 990px) {
 
