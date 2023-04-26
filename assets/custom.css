@@ -146,8 +146,6 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
     padding-top: 11px;
     padding-bottom: 11px;
     transition: all 0.25s ease-out;
-    margin-top: 35px;
-    margin-bottom: 20px;
     width: 100%;
     max-width: max-content;
     margin-left: auto;
