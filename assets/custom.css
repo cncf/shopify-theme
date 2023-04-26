@@ -34,7 +34,6 @@
     font-weight: 800;
 }
 
-
 slideshow-component .slideshow__text.banner__box .banner__text span,
 slideshow-component .slideshow__text.banner__box .banner__heading {
     color: black;
@@ -142,23 +141,24 @@ slideshow-component .slideshow__text.banner__box .banner__buttons .button {
     text-decoration: none;
     text-align: center;
     letter-spacing: 0.02em;
-    background-color: unset;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 11px;
     padding-bottom: 11px;
     transition: all 0.25s ease-out;
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom: 20px;
     width: 100%;
-    max-width: calc(614px - 15px - 15px); // social-links
+    max-width: max-content;
     margin-left: auto;
     margin-right: auto;
+    display: block;
+    color: white;
 }
 
-.hub-button&:hover {
-    border: 1px solid $link-color;
-    background-color: $link-color;
+.hub-button:hover {
+    border: 1px solid #d62293;
+    background-color: #d62293;
 }
 
 /* UPTO IPHONE 8 */
