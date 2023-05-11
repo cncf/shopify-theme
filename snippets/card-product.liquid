@@ -131,18 +131,7 @@
                 {{- 'products.product.on_sale' | t -}}
               </span>
             {%- endif -%}
-
-    {% if card_product.tags contains 'coming' %}
-          {% assign sold = true %}
-          {% else %}
-          {% assign sold = false %}
-          {% endif %}
-            
-          {% if card_product.available == false and sold == true %}
-            <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.coming_soon' | t }}</span>
-          {% elsif card_product.available == false and sold == false %}
-            <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
-          {% endif %}
+  
           </div>
         </div>
       </div>
