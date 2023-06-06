@@ -484,6 +484,12 @@
             "collection": "opa"
           }
         },
+        "646563c9-810b-448f-8d19-493e3dcdb83a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "open-kruise"
+          }
+        },
         "e879b48a-5ae3-4574-a598-6a01e972b061": {
           "type": "featured_collection",
           "settings": {
@@ -663,6 +669,7 @@
         "0e5057e6-e79f-4e30-a30d-2718db5cb337",
         "2a2de5a5-a0cb-4990-9222-5efcaa0302d1",
         "9ae73ef3-4de3-4960-8185-55e25f59156f",
+        "646563c9-810b-448f-8d19-493e3dcdb83a",
         "e879b48a-5ae3-4574-a598-6a01e972b061",
         "43fbec20-9568-4609-af88-21039cb0d6f2",
         "fbc25b7f-4e7b-404b-a8c9-6f0d2df8f20f",
