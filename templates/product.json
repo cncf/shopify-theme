@@ -47,8 +47,8 @@
           "settings": {
           }
         },
-        "5ac1e61b-80f0-4826-9112-387d65f6b191": {
-          "type": "shopify:\/\/apps\/snake-size-chart-size-guide\/blocks\/button-block\/cf5076f6-26e9-4f2a-b816-b27e72ae9138",
+        "e030440d-e17b-4e93-addf-63d76425f7f3": {
+          "type": "shopify:\/\/apps\/panda-size-chart\/blocks\/app-product-block\/b314ec07-fb45-49e7-be52-6a624f491710",
           "settings": {
           }
         },
@@ -118,7 +118,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "5ac1e61b-80f0-4826-9112-387d65f6b191",
+        "e030440d-e17b-4e93-addf-63d76425f7f3",
         "buy_buttons",
         "description",
         "collapsible-row-0",
