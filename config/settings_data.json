@@ -219,7 +219,21 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "15111459910547889281": {
+        "type": "shopify:\/\/apps\/snake-size-chart-size-guide\/blocks\/app-embed\/cf5076f6-26e9-4f2a-b816-b27e72ae9138",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "3500920606369333595": {
+        "type": "shopify:\/\/apps\/panda-size-chart\/blocks\/app-block\/b314ec07-fb45-49e7-be52-6a624f491710",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {

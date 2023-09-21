@@ -47,11 +47,6 @@
           "settings": {
           }
         },
-        "08d06797-7ceb-41b1-9efb-2c855e9c2248": {
-          "type": "shopify:\/\/apps\/snake-size-chart-size-guide\/blocks\/button-block\/cf5076f6-26e9-4f2a-b816-b27e72ae9138",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -118,7 +113,6 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "08d06797-7ceb-41b1-9efb-2c855e9c2248",
         "buy_buttons",
         "description",
         "collapsible-row-0",
