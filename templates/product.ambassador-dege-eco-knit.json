@@ -47,6 +47,11 @@
           "settings": {
           }
         },
+        "1e956096-2ef4-4233-915f-1a1e7c7a77ee": {
+          "type": "shopify:\/\/apps\/panda-size-chart\/blocks\/app-product-block\/b314ec07-fb45-49e7-be52-6a624f491710",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -113,6 +118,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "1e956096-2ef4-4233-915f-1a1e7c7a77ee",
         "buy_buttons",
         "description",
         "collapsible-row-0",
