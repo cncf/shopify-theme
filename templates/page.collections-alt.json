@@ -106,7 +106,7 @@
         "8211fd20-e0fe-475c-9d85-64a215942c8a": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cdk8s"
+            "collection": "cdk-for-kubernetes-cdk8s"
           }
         },
         "93cc2b9c-38c1-4263-98c1-73fe938ae485": {
