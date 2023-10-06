@@ -178,7 +178,7 @@
         "062db5bd-2be8-4dfc-9346-0e597fb1563b": {
           "type": "featured_collection",
           "settings": {
-            "collection": "core-dns"
+            "collection": "coredns"
           }
         },
         "a296b5dd-e778-4ce5-932d-d6531e967369": {
