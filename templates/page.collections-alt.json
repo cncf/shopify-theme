@@ -160,7 +160,7 @@
         "1fdca377-1d52-4475-ba26-2de2b4c0309a": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cni"
+            "collection": "container-network-interface-cni"
           }
         },
         "08147058-c1b8-4bbb-ab8b-41e382936b23": {
