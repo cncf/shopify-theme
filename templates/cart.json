@@ -7,6 +7,28 @@
         "padding_bottom": 60
       }
     },
+    "de06c889-6ffa-44a8-a13c-5e665d97b743": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16866132623658__de06c889-6ffa-44a8-a13c-5e665d97b743-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><em>**If you are shipping internationally to a business, please use \"order special instructions\" box to add your EORI\/Tax ID\/VAT number.**<\/em><\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16866132623658__de06c889-6ffa-44a8-a13c-5e665d97b743-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -31,6 +53,7 @@
   },
   "order": [
     "cart-items",
+    "de06c889-6ffa-44a8-a13c-5e665d97b743",
     "cart-footer"
   ]
 }
