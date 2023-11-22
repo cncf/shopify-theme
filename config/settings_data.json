@@ -232,6 +232,12 @@
         "disabled": true,
         "settings": {
         }
+      },
+      "8942208844547249051": {
+        "type": "shopify:\/\/apps\/ultimate-gdpr-eu-cookie-banner\/blocks\/widget\/9ad66af2-f521-41c0-96ef-0e66c4e1d187",
+        "settings": {
+        },
+        "disabled": false
       }
     }
   },
