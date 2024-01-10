@@ -1,7 +1,7 @@
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#d62293",
+    "colors_accent_1": "#dd1d1d",
     "gradient_accent_1": "",
     "colors_accent_2": "#3b86f7",
     "gradient_accent_2": "",
@@ -122,7 +122,7 @@
             "settings": {
               "text": "FLASH SALE!",
               "text_alignment": "center",
-              "color_scheme": "accent-2",
+              "color_scheme": "accent-1",
               "link": "shopify:\/\/collections\/flash-sale"
             }
           }
