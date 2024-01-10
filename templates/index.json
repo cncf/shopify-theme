@@ -1,5 +1,27 @@
 {
   "sections": {
+    "4ac2793b-f218-43e0-a2a0-435629931dbb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16866133115178__4ac2793b-f218-43e0-a2a0-435629931dbb-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Inventory is limited due to products being on reserve for KubeCon + CloudNativeCon Europe 2024. Stock will be replenished following the event in Spring of 2024<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16866133115178__4ac2793b-f218-43e0-a2a0-435629931dbb-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1663092014441a5f26": {
       "type": "slideshow",
       "blocks": {
@@ -183,6 +205,7 @@
     }
   },
   "order": [
+    "4ac2793b-f218-43e0-a2a0-435629931dbb",
     "1663092014441a5f26",
     "16630920171f0c85e5",
     "8cc81651-abc1-4a73-918a-b44e1b02d7dc",
