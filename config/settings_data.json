@@ -122,7 +122,7 @@
             "settings": {
               "text": "FLASH SALE!",
               "text_alignment": "center",
-              "color_scheme": "accent-1",
+              "color_scheme": "accent-2",
               "link": "shopify:\/\/collections\/flash-sale"
             }
           }
@@ -229,12 +229,6 @@
       "15111459910547889281": {
         "type": "shopify:\/\/apps\/snake-size-chart-size-guide\/blocks\/app-embed\/cf5076f6-26e9-4f2a-b816-b27e72ae9138",
         "disabled": true,
-        "settings": {
-        }
-      },
-      "8942208844547249051": {
-        "type": "shopify:\/\/apps\/ultimate-gdpr-eu-cookie-banner\/blocks\/widget\/9ad66af2-f521-41c0-96ef-0e66c4e1d187",
-        "disabled": false,
         "settings": {
         }
       }
