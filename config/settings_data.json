@@ -228,7 +228,7 @@
       },
       "3500920606369333595": {
         "type": "shopify:\/\/apps\/panda-size-chart\/blocks\/app-block\/b314ec07-fb45-49e7-be52-6a624f491710",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       }
