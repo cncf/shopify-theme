@@ -60,6 +60,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 24,
         "columns_desktop": 4,
@@ -75,11 +76,213 @@
         "padding_top": 24,
         "padding_bottom": 24
       }
+    },
+    "collection_list_ipxfb3": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_tbDHrR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "argo"
+          }
+        },
+        "featured_collection_GXMAjQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cilium"
+          }
+        },
+        "featured_collection_WykLfQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cloudevents"
+          }
+        },
+        "featured_collection_Vb9FVf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "containerd"
+          }
+        },
+        "featured_collection_tref37": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coredns"
+          }
+        },
+        "featured_collection_j6k3c4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cri-o"
+          }
+        },
+        "featured_collection_AnjMMp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "envoy"
+          }
+        },
+        "featured_collection_BmVmLJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "etcd"
+          }
+        },
+        "featured_collection_itKeeB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "falco"
+          }
+        },
+        "featured_collection_dXrAAL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fluentd"
+          }
+        },
+        "featured_collection_iWnRJx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "flux"
+          }
+        },
+        "featured_collection_fgaPHC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "harbor"
+          }
+        },
+        "featured_collection_8ckVbf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "helm"
+          }
+        },
+        "featured_collection_mYmdXQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "istio"
+          }
+        },
+        "featured_collection_fpgcgX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jaeger"
+          }
+        },
+        "featured_collection_FRxUX6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "keda"
+          }
+        },
+        "featured_collection_mq3VbD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kubernetes"
+          }
+        },
+        "featured_collection_LeK7Nd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "linkerd"
+          }
+        },
+        "featured_collection_mDxA4p": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "open-policy-agent-opa"
+          }
+        },
+        "featured_collection_TkKpLM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "prometheus"
+          }
+        },
+        "featured_collection_Q4iqzG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rook"
+          }
+        },
+        "featured_collection_7QeXHY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spiffe"
+          }
+        },
+        "featured_collection_bMCL7e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spire"
+          }
+        },
+        "featured_collection_FTamMf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-update-framework-tuf"
+          }
+        },
+        "featured_collection_UaXKKn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tikv"
+          }
+        },
+        "featured_collection_c4fJax": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vitess"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_tbDHrR",
+        "featured_collection_GXMAjQ",
+        "featured_collection_WykLfQ",
+        "featured_collection_Vb9FVf",
+        "featured_collection_tref37",
+        "featured_collection_j6k3c4",
+        "featured_collection_AnjMMp",
+        "featured_collection_BmVmLJ",
+        "featured_collection_itKeeB",
+        "featured_collection_dXrAAL",
+        "featured_collection_iWnRJx",
+        "featured_collection_fgaPHC",
+        "featured_collection_8ckVbf",
+        "featured_collection_mYmdXQ",
+        "featured_collection_fpgcgX",
+        "featured_collection_FRxUX6",
+        "featured_collection_mq3VbD",
+        "featured_collection_LeK7Nd",
+        "featured_collection_mDxA4p",
+        "featured_collection_TkKpLM",
+        "featured_collection_Q4iqzG",
+        "featured_collection_7QeXHY",
+        "featured_collection_bMCL7e",
+        "featured_collection_FTamMf",
+        "featured_collection_UaXKKn",
+        "featured_collection_c4fJax"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "1662755006ddb44b9f",
     "banner",
-    "product-grid"
+    "product-grid",
+    "collection_list_ipxfb3"
   ]
 }
