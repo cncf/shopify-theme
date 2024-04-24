@@ -86,16 +86,64 @@
             "collection": "argo"
           }
         },
+        "featured_collection_Jzaw3Q": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "backstage"
+          }
+        },
+        "featured_collection_aQMLx8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "buildpacks"
+          }
+        },
+        "featured_collection_LUbJW7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cert-manager"
+          }
+        },
         "featured_collection_nQY7mF": {
           "type": "featured_collection",
           "settings": {
             "collection": "cilium"
           }
         },
+        "featured_collection_pY3bTz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chaosmesh"
+          }
+        },
+        "featured_collection_KnaU3L": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cloud-custodian"
+          }
+        },
         "featured_collection_BfXDgB": {
           "type": "featured_collection",
           "settings": {
             "collection": "cloudevents"
+          }
+        },
+        "featured_collection_Lm7VdC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "container-network-interface-cni"
+          }
+        },
+        "featured_collection_Cnw9ji": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "contour"
+          }
+        },
+        "featured_collection_haAXtA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cortex"
           }
         },
         "featured_collection_dRcePj": {
@@ -110,6 +158,12 @@
             "collection": "cri-o"
           }
         },
+        "featured_collection_GfPKgG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "crossplane"
+          }
+        },
         "featured_collection_yg8K8x": {
           "type": "featured_collection",
           "settings": {
@@ -120,6 +174,18 @@
           "type": "featured_collection",
           "settings": {
             "collection": "etcd"
+          }
+        },
+        "featured_collection_HfcBYz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dapr"
+          }
+        },
+        "featured_collection_Wpbx9P": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dragonfly"
           }
         },
         "featured_collection_XL9V6x": {
@@ -140,6 +206,12 @@
             "collection": "flux"
           }
         },
+        "featured_collection_q9EPa9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "grpc"
+          }
+        },
         "featured_collection_JTJ6di": {
           "type": "featured_collection",
           "settings": {
@@ -150,6 +222,12 @@
           "type": "featured_collection",
           "settings": {
             "collection": "helm"
+          }
+        },
+        "featured_collection_7AFP7U": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "in-toto"
           }
         },
         "featured_collection_A8TDQK": {
@@ -176,10 +254,82 @@
             "collection": "kubernetes"
           }
         },
+        "featured_collection_aMeddi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kubeedge"
+          }
+        },
+        "featured_collection_jd8Mty": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kubevela"
+          }
+        },
+        "featured_collection_6ByWq9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kubevirt"
+          }
+        },
+        "featured_collection_YtNcMq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "keptn"
+          }
+        },
+        "featured_collection_fmWH3H": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "knative"
+          }
+        },
+        "featured_collection_pHUHzB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kyverno"
+          }
+        },
         "featured_collection_Ct6Cp9": {
           "type": "featured_collection",
           "settings": {
             "collection": "linkerd"
+          }
+        },
+        "featured_collection_dpx6dN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "litmus"
+          }
+        },
+        "featured_collection_CUT9Be": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "longhorn"
+          }
+        },
+        "featured_collection_fU8FBd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nats"
+          }
+        },
+        "featured_collection_4rAxGM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "notary"
+          }
+        },
+        "featured_collection_944wUN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "openkruise"
+          }
+        },
+        "featured_collection_3wnDAt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "openmetrics"
           }
         },
         "featured_collection_6kje94": {
@@ -233,22 +383,47 @@
       },
       "block_order": [
         "featured_collection_RDK7F9",
+        "featured_collection_Jzaw3Q",
+        "featured_collection_aQMLx8",
+        "featured_collection_LUbJW7",
         "featured_collection_nQY7mF",
+        "featured_collection_pY3bTz",
+        "featured_collection_KnaU3L",
         "featured_collection_BfXDgB",
+        "featured_collection_Lm7VdC",
+        "featured_collection_Cnw9ji",
+        "featured_collection_haAXtA",
         "featured_collection_dRcePj",
         "featured_collection_Gk8Ukx",
+        "featured_collection_GfPKgG",
         "featured_collection_yg8K8x",
         "featured_collection_GeDkGQ",
+        "featured_collection_HfcBYz",
+        "featured_collection_Wpbx9P",
         "featured_collection_XL9V6x",
         "featured_collection_yeCYjN",
         "featured_collection_rcDzch",
+        "featured_collection_q9EPa9",
         "featured_collection_JTJ6di",
         "featured_collection_jAxitC",
+        "featured_collection_7AFP7U",
         "featured_collection_A8TDQK",
         "featured_collection_q8TeLJ",
         "featured_collection_Y3nykq",
         "featured_collection_HbxXjN",
+        "featured_collection_aMeddi",
+        "featured_collection_jd8Mty",
+        "featured_collection_6ByWq9",
+        "featured_collection_YtNcMq",
+        "featured_collection_fmWH3H",
+        "featured_collection_pHUHzB",
         "featured_collection_Ct6Cp9",
+        "featured_collection_dpx6dN",
+        "featured_collection_CUT9Be",
+        "featured_collection_fU8FBd",
+        "featured_collection_4rAxGM",
+        "featured_collection_944wUN",
+        "featured_collection_3wnDAt",
         "featured_collection_6kje94",
         "featured_collection_bV9XPp",
         "featured_collection_QqHYfE",
