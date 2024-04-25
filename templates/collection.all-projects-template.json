@@ -361,18 +361,6 @@
           "settings": {
             "collection": "rook"
           }
-        },
-        "featured_collection_7wAMV9": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "spiffe"
-          }
-        },
-        "featured_collection_V9wgEi": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "spire"
-          }
         }
       },
       "block_order": [
@@ -422,9 +410,7 @@
         "featured_collection_3wnDAt",
         "featured_collection_6kje94",
         "featured_collection_bV9XPp",
-        "featured_collection_QqHYfE",
-        "featured_collection_7wAMV9",
-        "featured_collection_V9wgEi"
+        "featured_collection_QqHYfE"
       ],
       "settings": {
         "title": "",
@@ -442,10 +428,34 @@
     "collection_list_mzcWiE": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_TDpTLi": {
+        "featured_collection_fVaWmk": {
           "type": "featured_collection",
           "settings": {
             "collection": ""
+          }
+        },
+        "featured_collection_MFUNU3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_38htXx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_Xt6gcD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rook"
+          }
+        },
+        "featured_collection_TDpTLi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spiffe"
           }
         },
         "featured_collection_rzbi4T": {
@@ -498,6 +508,10 @@
         }
       },
       "block_order": [
+        "featured_collection_fVaWmk",
+        "featured_collection_MFUNU3",
+        "featured_collection_38htXx",
+        "featured_collection_Xt6gcD",
         "featured_collection_TDpTLi",
         "featured_collection_rzbi4T",
         "featured_collection_FFUDH8",
