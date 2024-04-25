@@ -134,6 +134,12 @@
             "collection": "crossplane"
           }
         },
+        "featured_collection_zVbLCT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cubefs"
+          }
+        },
         "featured_collection_cWHkwL": {
           "type": "featured_collection",
           "settings": {
@@ -144,6 +150,12 @@
           "type": "featured_collection",
           "settings": {
             "collection": "dragonfly"
+          }
+        },
+        "featured_collection_WWp4Pc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "emissary-ingress"
           }
         },
         "featured_collection_Njnf3x": {
@@ -158,10 +170,22 @@
             "collection": "in-toto"
           }
         },
+        "featured_collection_nYYRaX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "karmada"
+          }
+        },
         "featured_collection_iaKwJd": {
           "type": "featured_collection",
           "settings": {
             "collection": "keptn"
+          }
+        },
+        "featured_collection_fPzCYP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "keycloak"
           }
         },
         "featured_collection_pCd8mg": {
@@ -230,10 +254,22 @@
             "collection": "openmetrics"
           }
         },
+        "featured_collection_dWbAmY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "open-feature"
+          }
+        },
         "featured_collection_H4kr4C": {
           "type": "featured_collection",
           "settings": {
             "collection": "operator-framework"
+          }
+        },
+        "featured_collection_HRMXYf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "opentelemetry"
           }
         },
         "featured_collection_Ayz8k7": {
@@ -265,11 +301,15 @@
         "featured_collection_3ew4e6",
         "featured_collection_QkehPm",
         "featured_collection_LiPnai",
+        "featured_collection_zVbLCT",
         "featured_collection_cWHkwL",
         "featured_collection_b8jPtd",
+        "featured_collection_WWp4Pc",
         "featured_collection_Njnf3x",
         "featured_collection_kF6F9A",
+        "featured_collection_nYYRaX",
         "featured_collection_iaKwJd",
+        "featured_collection_fPzCYP",
         "featured_collection_pCd8mg",
         "featured_collection_dtqKUb",
         "featured_collection_V66NNM",
@@ -281,7 +321,9 @@
         "featured_collection_WUixtf",
         "featured_collection_TnKNPQ",
         "featured_collection_JYRtd4",
+        "featured_collection_dWbAmY",
         "featured_collection_H4kr4C",
+        "featured_collection_HRMXYf",
         "featured_collection_Ayz8k7",
         "featured_collection_epWDjD",
         "featured_collection_JHqaKD"
