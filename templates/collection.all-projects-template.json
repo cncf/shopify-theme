@@ -164,6 +164,18 @@
             "collection": "crossplane"
           }
         },
+        "featured_collection_mKXY4d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cubefs"
+          }
+        },
+        "featured_collection_8GQB8h": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "emissary-ingress"
+          }
+        },
         "featured_collection_yg8K8x": {
           "type": "featured_collection",
           "settings": {
@@ -384,6 +396,8 @@
         "featured_collection_dRcePj",
         "featured_collection_Gk8Ukx",
         "featured_collection_GfPKgG",
+        "featured_collection_mKXY4d",
+        "featured_collection_8GQB8h",
         "featured_collection_yg8K8x",
         "featured_collection_GeDkGQ",
         "featured_collection_HfcBYz",
