@@ -373,12 +373,6 @@
           "settings": {
             "collection": "spire"
           }
-        },
-        "featured_collection_M9NVRf": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-update-framework-tuf"
-          }
         }
       },
       "block_order": [
@@ -430,8 +424,7 @@
         "featured_collection_bV9XPp",
         "featured_collection_QqHYfE",
         "featured_collection_7wAMV9",
-        "featured_collection_V9wgEi",
-        "featured_collection_M9NVRf"
+        "featured_collection_V9wgEi"
       ],
       "settings": {
         "title": "",
@@ -449,6 +442,24 @@
     "collection_list_mzcWiE": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_TDpTLi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_rzbi4T": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spire"
+          }
+        },
+        "featured_collection_FFUDH8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-update-framework-tuf"
+          }
+        },
         "featured_collection_emnbD3": {
           "type": "featured_collection",
           "settings": {
@@ -487,6 +498,9 @@
         }
       },
       "block_order": [
+        "featured_collection_TDpTLi",
+        "featured_collection_rzbi4T",
+        "featured_collection_FFUDH8",
         "featured_collection_emnbD3",
         "featured_collection_9f7jfc",
         "featured_collection_g8KQne",
