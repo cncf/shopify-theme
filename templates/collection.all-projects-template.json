@@ -349,24 +349,6 @@
           "settings": {
             "collection": "open-feature"
           }
-        },
-        "featured_collection_944wUN": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "openkruise"
-          }
-        },
-        "featured_collection_3wnDAt": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "openmetrics"
-          }
-        },
-        "featured_collection_6kje94": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "open-policy-agent-opa"
-          }
         }
       },
       "block_order": [
@@ -414,10 +396,7 @@
         "featured_collection_CUT9Be",
         "featured_collection_fU8FBd",
         "featured_collection_4rAxGM",
-        "featured_collection_p4Jk9r",
-        "featured_collection_944wUN",
-        "featured_collection_3wnDAt",
-        "featured_collection_6kje94"
+        "featured_collection_p4Jk9r"
       ],
       "settings": {
         "title": "",
@@ -435,6 +414,24 @@
     "collection_list_mzcWiE": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_PTNy8a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "openkruise"
+          }
+        },
+        "featured_collection_8mVeFL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "openmetrics"
+          }
+        },
+        "featured_collection_4KNXX7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "open-policy-agent-opa"
+          }
+        },
         "featured_collection_fVaWmk": {
           "type": "featured_collection",
           "settings": {
@@ -515,6 +512,9 @@
         }
       },
       "block_order": [
+        "featured_collection_PTNy8a",
+        "featured_collection_8mVeFL",
+        "featured_collection_4KNXX7",
         "featured_collection_fVaWmk",
         "featured_collection_MFUNU3",
         "featured_collection_38htXx",
