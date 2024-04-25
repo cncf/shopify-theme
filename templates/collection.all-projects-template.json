@@ -254,10 +254,22 @@
             "collection": "jaeger"
           }
         },
+        "featured_collection_TfGgtD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "karmada"
+          }
+        },
         "featured_collection_Y3nykq": {
           "type": "featured_collection",
           "settings": {
             "collection": "keda"
+          }
+        },
+        "featured_collection_zjkP6g": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "keycloak"
           }
         },
         "featured_collection_HbxXjN": {
@@ -332,6 +344,12 @@
             "collection": "notary"
           }
         },
+        "featured_collection_p4Jk9r": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "open-feature"
+          }
+        },
         "featured_collection_944wUN": {
           "type": "featured_collection",
           "settings": {
@@ -348,18 +366,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "open-policy-agent-opa"
-          }
-        },
-        "featured_collection_bV9XPp": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "prometheus"
-          }
-        },
-        "featured_collection_QqHYfE": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "rook"
           }
         }
       },
@@ -393,7 +399,9 @@
         "featured_collection_7AFP7U",
         "featured_collection_A8TDQK",
         "featured_collection_q8TeLJ",
+        "featured_collection_TfGgtD",
         "featured_collection_Y3nykq",
+        "featured_collection_zjkP6g",
         "featured_collection_HbxXjN",
         "featured_collection_aMeddi",
         "featured_collection_jd8Mty",
@@ -406,11 +414,10 @@
         "featured_collection_CUT9Be",
         "featured_collection_fU8FBd",
         "featured_collection_4rAxGM",
+        "featured_collection_p4Jk9r",
         "featured_collection_944wUN",
         "featured_collection_3wnDAt",
-        "featured_collection_6kje94",
-        "featured_collection_bV9XPp",
-        "featured_collection_QqHYfE"
+        "featured_collection_6kje94"
       ],
       "settings": {
         "title": "",
@@ -431,19 +438,19 @@
         "featured_collection_fVaWmk": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "opentelemetry"
           }
         },
         "featured_collection_MFUNU3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "operator-framework"
           }
         },
         "featured_collection_38htXx": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "prometheus"
           }
         },
         "featured_collection_Xt6gcD": {
