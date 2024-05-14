@@ -4,7 +4,7 @@
   Do not modify this file. Any changes will be reset the next time that
   Locksmith interacts with this theme.
 
-  Last updated: Fri, 22 Dec 2023 12:00:26 -0500 (EST)
+  Last updated: Tue, 14 May 2024 11:56:30 -0400 (EDT)
 {% endcomment -%}
 
 {%include 'locksmith-variables', locksmith_scope: nil%}{%if locksmith_access_denied_content == blank%}{%capture locksmith_access_denied_content%}{%if locksmith_manual_lock%}{{content_for_layout}}{%elsif locksmith_remote_lock%}<div id="locksmith-content">
@@ -71,14 +71,14 @@
         }
       </script>{%endif%}{%endcapture%}{%endif%}{%include 'locksmith-content-variables'%}{%include 'locksmith-variables', locksmith_scope: nil%}{%if locksmith_access_denied%}{%capture content_for_header%}{{content_for_header|replace:'.oembed', ''|replace:'.atom', ''|replace:'link rel="alternate" type="application/json+oembed"', 'link'|replace:' title="Feed" rel="alternate" type="application/atom+xml"', ''}}{%endcapture%}{%endif%}{%capture locksmith_initializations%}{%if locksmith_access_denied and locksmith_manual_lock == false and locksmith_noindex%}<meta name="robots" content="noindex" />{%endif%}{{locksmith_json}}{{locksmith_client}}
 
-
   <script data-locksmith>Locksmith.jsonTag={{locksmith_json|json}};Locksmith.jsonTagSignature={{locksmith_json_signature|json}}</script>{%endcapture%}{%if locksmith_access_granted or locksmith_manual_lock%}{%if locksmith_redirect != blank%}{%assign content_for_layout=locksmith_redirect%}{%endif%}{%else%}{%assign content_for_layout=locksmith_access_denied_content%}{%endif%}{%capture _3%}<script data-locksmith>
     var load = function () {
-{%unless _7%}
-          if (document.querySelectorAll('.locksmith-manual-trigger').length > 0) {
+{%unless _7%}{%if cart.attributes.locksmith == nil%}
+
+            Locksmith.initializeSession({silent: true});
+{%else%}
             Locksmith.ping();
-          }
-{%endunless%}{%if locksmith_has_timeout%}
+{%endif%}{%endunless%}{%if locksmith_has_timeout%}
         Locksmith.timeoutMonitor();
 {%endif%}
 
