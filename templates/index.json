@@ -63,9 +63,10 @@
         },
         "7cfc6001-d28c-45f2-8cc3-e91c3c53dd0c": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/welcome.jpg",
-            "heading": "FLASH SALE!",
+            "heading": "FLASH SALE",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "shop here",

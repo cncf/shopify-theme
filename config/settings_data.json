@@ -119,6 +119,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "FLASH SALE!",
               "text_alignment": "center",
