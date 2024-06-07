@@ -97,6 +97,72 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "featured_product_Rg4MF8": {
+      "type": "featured-product",
+      "blocks": {
+        "text_VwEjXK": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_hRUcdc": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_pgKdA4": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_UAcdHQ": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_fjRYgA": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_gPn7hW": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "share_x9JU6a": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_VwEjXK",
+        "title_hRUcdc",
+        "price_pgKdA4",
+        "variant_picker_UAcdHQ",
+        "quantity_selector_fjRYgA",
+        "buy_buttons_gPn7hW",
+        "share_x9JU6a"
+      ],
+      "settings": {
+        "product": "kubernetes-birthday-tee",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16630920171f0c85e5": {
       "type": "featured-collection",
       "settings": {
@@ -209,6 +275,7 @@
   "order": [
     "4ac2793b-f218-43e0-a2a0-435629931dbb",
     "1663092014441a5f26",
+    "featured_product_Rg4MF8",
     "16630920171f0c85e5",
     "8cc81651-abc1-4a73-918a-b44e1b02d7dc",
     "1663084055b144a78d",
