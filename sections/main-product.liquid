@@ -541,9 +541,9 @@
                             <div id="Slide-{{ block.id }}-{{ forloop.index }}" class="complementary-slide complementary-slide--{{ settings.card_style }} grid__item slider__slide slideshow__slide" tabindex="-1" role="group"{% if number_of_slides > 1 %} aria-roledescription="{{ 'sections.slideshow.slide' | t }}" aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"{% endif %}>
                               <ul class="list-unstyled" role="list">
                                 {%- for product in recommendations.products limit: block.settings.products_per_page offset: continue -%}
-                                  {%- comment %}<locksmith:4d64>{% endcomment -%}
+                                  {%- comment %}<locksmith:d283>{% endcomment -%}
                                     {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-                                  {%- comment %}</locksmith:4d64>{% endcomment -%}
+                                  {%- comment %}</locksmith:d283>{% endcomment -%}
                                   <li>
                                     {% render 'card-product',
                                       card_product: product,
@@ -712,6 +712,9 @@
 
   {% assign popups = section.blocks | where: 'type', 'popup' %}
   {%- for block in popups -%}
+    {%- comment %}<locksmith:ea77>{% endcomment -%}
+      {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+    {%- comment %}</locksmith:ea77>{% endcomment -%}
     <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal" {{ block.shopify_attributes }}>
       <div
         role="dialog"

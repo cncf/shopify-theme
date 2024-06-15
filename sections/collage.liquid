@@ -24,6 +24,9 @@
     <h2 class="collage-wrapper-title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
     <div class="collage{% if section.settings.mobile_layout == 'collage' %} collage--mobile{% endif %}">
       {%- for block in section.blocks -%}
+        {%- comment %}<locksmith:00ac>{% endcomment -%}
+          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block.settings.collection, subject_parent: section, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+        {%- comment %}</locksmith:00ac>{% endcomment -%}
         <div class="collage__item collage__item--{{ block.type }} collage__item--{{ section.settings.desktop_layout }}" {{ block.shopify_attributes }}>
           {%- case block.type -%}
             {%- when 'image' -%}
