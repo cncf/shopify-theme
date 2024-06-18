@@ -9,6 +9,28 @@
 */
 {
   "sections": {
+    "rich_text_ikKRdj": {
+      "type": "rich-text",
+      "blocks": {
+        "text_NxAPcy": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>This product is produced upon order, with a production time of about 5 to 7 business days before it is shipped.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_NxAPcy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -171,6 +193,7 @@
     }
   },
   "order": [
+    "rich_text_ikKRdj",
     "main",
     "1663168911f639cfea",
     "product-recommendations"
