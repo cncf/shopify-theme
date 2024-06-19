@@ -15,7 +15,7 @@
         "text_NxAPcy": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>This product is produced upon order, with a production time of about 5 to 7 business days before it is shipped.<\/strong><\/p>"
+            "text": "<h3><strong>This product is produced upon order, with a production time of about 5 to 7 business days before it is shipped.<\/strong><\/h3>"
           }
         }
       },
