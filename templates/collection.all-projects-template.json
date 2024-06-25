@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1662755006ddb44b9f": {
@@ -126,6 +135,12 @@
           "type": "featured_collection",
           "settings": {
             "collection": "cloudevents"
+          }
+        },
+        "featured_collection_FWW8pN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cncf"
           }
         },
         "featured_collection_Lm7VdC": {
@@ -343,12 +358,6 @@
           "settings": {
             "collection": "notary"
           }
-        },
-        "featured_collection_p4Jk9r": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "open-feature"
-          }
         }
       },
       "block_order": [
@@ -360,6 +369,7 @@
         "featured_collection_pY3bTz",
         "featured_collection_KnaU3L",
         "featured_collection_BfXDgB",
+        "featured_collection_FWW8pN",
         "featured_collection_Lm7VdC",
         "featured_collection_Cnw9ji",
         "featured_collection_haAXtA",
@@ -395,8 +405,7 @@
         "featured_collection_dpx6dN",
         "featured_collection_CUT9Be",
         "featured_collection_fU8FBd",
-        "featured_collection_4rAxGM",
-        "featured_collection_p4Jk9r"
+        "featured_collection_4rAxGM"
       ],
       "settings": {
         "title": "",
@@ -414,6 +423,12 @@
     "collection_list_mzcWiE": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_JnaAMJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "open-feature"
+          }
+        },
         "featured_collection_PTNy8a": {
           "type": "featured_collection",
           "settings": {
@@ -512,6 +527,7 @@
         }
       },
       "block_order": [
+        "featured_collection_JnaAMJ",
         "featured_collection_PTNy8a",
         "featured_collection_8mVeFL",
         "featured_collection_4KNXX7",
