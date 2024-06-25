@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1662755006ddb44b9f": {
@@ -96,6 +105,12 @@
           "type": "featured_collection",
           "settings": {
             "collection": "cloudevents"
+          }
+        },
+        "featured_collection_Ed9igt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cncf"
           }
         },
         "featured_collection_Vb9FVf": {
@@ -241,6 +256,7 @@
         "featured_collection_tbDHrR",
         "featured_collection_GXMAjQ",
         "featured_collection_WykLfQ",
+        "featured_collection_Ed9igt",
         "featured_collection_Vb9FVf",
         "featured_collection_tref37",
         "featured_collection_j6k3c4",
