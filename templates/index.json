@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "4ac2793b-f218-43e0-a2a0-435629931dbb": {
@@ -243,7 +252,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "prometheus",
+        "collection": "cncf",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
