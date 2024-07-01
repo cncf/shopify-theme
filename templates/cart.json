@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "cart-items": {
@@ -13,7 +22,7 @@
         "template--16866132623658__de06c889-6ffa-44a8-a13c-5e665d97b743-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h3><em>**If you are shipping internationally to a business, please use \"order special instructions\" box to add your EORI\/Tax ID\/VAT number.**<\/em><\/h3>"
+            "text": "<h3><em>**<\/em>If you are shipping internationally to a business, please use \"order special instructions\" box to add your EORI\/Tax ID\/VAT number. If shipping to a resident\/home address in the EU, this information is not required. If shipping to China, resident ID is required for home addresses and business tax ID for shipping to a business**<\/h3>"
           }
         }
       },
