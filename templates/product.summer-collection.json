@@ -46,6 +46,7 @@
         "text_F4ciWC",
         "buttons_TWa3E7"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Summer-Collection-Banner.png",
         "image_overlay_opacity": 0,
