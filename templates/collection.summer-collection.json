@@ -14,6 +14,7 @@
       "blocks": {
         "1662755006af0b5e27-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "{{ collection.title }}",
             "heading_size": "h0"
@@ -45,7 +46,7 @@
         "1662755006af0b5e27-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/welcome.jpg",
+        "image": "shopify:\/\/shop_images\/Summer-Collection-Banner.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -60,7 +61,6 @@
     },
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_collection_description": false,
         "show_collection_image": false,
@@ -69,7 +69,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_page": 24,
         "columns_desktop": 4,
@@ -114,6 +113,7 @@
         "featured_collection_rzTNmc",
         "featured_collection_4AgYV8"
       ],
+      "disabled": true,
       "settings": {
         "title": "Collections",
         "heading_size": "h1",
