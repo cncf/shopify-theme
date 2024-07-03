@@ -435,12 +435,6 @@
             "collection": "openkruise"
           }
         },
-        "featured_collection_8mVeFL": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "openmetrics"
-          }
-        },
         "featured_collection_4KNXX7": {
           "type": "featured_collection",
           "settings": {
@@ -529,7 +523,6 @@
       "block_order": [
         "featured_collection_JnaAMJ",
         "featured_collection_PTNy8a",
-        "featured_collection_8mVeFL",
         "featured_collection_4KNXX7",
         "featured_collection_fVaWmk",
         "featured_collection_MFUNU3",

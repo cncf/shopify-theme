@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1662755006ddb44b9f": {
@@ -248,12 +257,6 @@
             "collection": "openkruise"
           }
         },
-        "featured_collection_JYRtd4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "openmetrics"
-          }
-        },
         "featured_collection_dWbAmY": {
           "type": "featured_collection",
           "settings": {
@@ -320,7 +323,6 @@
         "featured_collection_dLXxAG",
         "featured_collection_WUixtf",
         "featured_collection_TnKNPQ",
-        "featured_collection_JYRtd4",
         "featured_collection_dWbAmY",
         "featured_collection_H4kr4C",
         "featured_collection_HRMXYf",
