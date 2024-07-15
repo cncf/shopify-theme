@@ -89,6 +89,12 @@
     "collection_list_ndJJhA": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_HQFNLT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "artifacthub"
+          }
+        },
         "featured_collection_GntDmJ": {
           "type": "featured_collection",
           "settings": {
@@ -295,6 +301,7 @@
         }
       },
       "block_order": [
+        "featured_collection_HQFNLT",
         "featured_collection_GntDmJ",
         "featured_collection_cnjbqw",
         "featured_collection_TY77FN",
