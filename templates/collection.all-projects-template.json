@@ -95,6 +95,12 @@
             "collection": "argo"
           }
         },
+        "featured_collection_YderFJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "artifacthub"
+          }
+        },
         "featured_collection_Jzaw3Q": {
           "type": "featured_collection",
           "settings": {
@@ -352,16 +358,11 @@
           "settings": {
             "collection": "nats"
           }
-        },
-        "featured_collection_4rAxGM": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "notary"
-          }
         }
       },
       "block_order": [
         "featured_collection_RDK7F9",
+        "featured_collection_YderFJ",
         "featured_collection_Jzaw3Q",
         "featured_collection_aQMLx8",
         "featured_collection_LUbJW7",
@@ -404,8 +405,7 @@
         "featured_collection_Ct6Cp9",
         "featured_collection_dpx6dN",
         "featured_collection_CUT9Be",
-        "featured_collection_fU8FBd",
-        "featured_collection_4rAxGM"
+        "featured_collection_fU8FBd"
       ],
       "settings": {
         "title": "",
@@ -423,6 +423,12 @@
     "collection_list_mzcWiE": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_HHaMAr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "notary"
+          }
+        },
         "featured_collection_JnaAMJ": {
           "type": "featured_collection",
           "settings": {
@@ -521,6 +527,7 @@
         }
       },
       "block_order": [
+        "featured_collection_HHaMAr",
         "featured_collection_JnaAMJ",
         "featured_collection_PTNy8a",
         "featured_collection_4KNXX7",
