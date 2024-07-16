@@ -160,6 +160,7 @@
         "buy_buttons_gPn7hW",
         "share_x9JU6a"
       ],
+      "disabled": true,
       "settings": {
         "product": "kubernetes-birthday-tee",
         "color_scheme": "background-2",
