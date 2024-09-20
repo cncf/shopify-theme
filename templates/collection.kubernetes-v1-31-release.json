@@ -48,7 +48,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Kubernetes_v1.31_release_SIG_tee.png",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-left",
         "show_text_box": true,
