@@ -14,6 +14,7 @@
       "blocks": {
         "1662755006af0b5e27-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "{{ collection.title }}",
             "heading_size": "h0"
@@ -45,7 +46,7 @@
         "1662755006af0b5e27-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/welcome.jpg",
+        "image": "shopify:\/\/shop_images\/Kubernetes_v1.31_release_SIG_tee.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
