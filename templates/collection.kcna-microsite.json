@@ -9,6 +9,28 @@
 */
 {
   "sections": {
+    "rich_text_E98637": {
+      "type": "rich-text",
+      "blocks": {
+        "text_UmTVVR": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Items are on pre-order and will be available for pickup at KCNA 24</strong></h3>"
+          }
+        }
+      },
+      "block_order": [
+        "text_UmTVVR"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1662755006ddb44b9f": {
       "type": "image-banner",
       "blocks": {
@@ -44,6 +66,7 @@
         "1662755006af0b5e27-1",
         "1662755006af0b5e27-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/welcome.jpg",
         "image_overlay_opacity": 0,
@@ -87,6 +110,7 @@
     }
   },
   "order": [
+    "rich_text_E98637",
     "1662755006ddb44b9f",
     "banner",
     "product-grid"
