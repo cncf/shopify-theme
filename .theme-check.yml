@@ -1,4 +1,9 @@
+# Added because we only use EN language.
 MatchingTranslations:
   enabled: false
-TemplateLength:
+# Added this to ignore our old variable naming scheme.
+VariableName:
+  enabled: false
+# Added this to ignore multiple errors from Locksmith
+UnusedAssign:
   enabled: false
