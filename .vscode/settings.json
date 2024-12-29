@@ -24,7 +24,7 @@
 		"strings": true
 	},
 	"editor.wordWrap": "off",
-	"editor.renderFinalNewline": true,
+	"editor.renderFinalNewline": "on",
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": false,
 	"html.format.wrapLineLength": 80,

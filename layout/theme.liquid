@@ -1,31 +1,31 @@
 {%- comment %}<locksmith:aab6>{% endcomment -%}
-  {%- include 'locksmith' -%}
+  {%- render 'locksmith' -%}
 {%- comment %}</locksmith:aab6>{% endcomment -%}
 
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head> 
-    {{ locksmith_initializations }}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com/" crossorigin="anonymous">
+    <link rel="preconnect" href="https://cmp.osano.com/" crossorigin="anonymous">
     {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
+
+    {{ locksmith_initializations }}
     
     {%- unless settings.type_body_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
+      {{ settings.type_body_font | font_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}
     {%- endunless -%}
     
     {%- unless settings.type_header_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
+      {{ settings.type_header_font | font_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}
     {%- endunless -%}
-    
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com/" >
-    <link rel="dns-prefetch" href="https://cmp.osano.com/" >
-    
+        
     <title>
       {{ page_title }}
       {%- if current_tags %}
@@ -334,8 +334,8 @@
 
     {{ 'zify-sizechart.css' | asset_url | stylesheet_tag }}
    
-    <script src="https://cmp.osano.com/16A0DbT9yDNIaQkvZ/c3494b1e-ff3a-436f-978d-842e9a0bed27/osano.js"></script>
-
+    <script src="https://cmp.osano.com/16A0DbT9yDNIaQkvZ/c3494b1e-ff3a-436f-978d-842e9a0bed27/osano.js" defer></script>
+    
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -356,15 +356,9 @@
     </script>
     
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    
-    
-
-  <!-- Avada Email Marketing Script -->
- {% include 'avada-em-setting' %}
-  <!-- /Avada Email Marketing Script -->
-
-{{ content_for_header }}
-    
+  
+    {% render 'avada-em-setting' %}
+   
     <script>
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
       if (Shopify.designMode) {
@@ -385,6 +379,7 @@
 
     <link rel="canonical" href="{{ canonical_url }}">
     {% render 'meta-tags' %}   
+    {{ content_for_header }}
 </head>
 
   <body class="gradient">
@@ -448,6 +443,6 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  <script src='{{ 'zify-sizechart.js' | asset_url }}' defer='defer'></script>
+    <script src='{{ 'zify-sizechart.js' | asset_url }}' defer='defer'></script>
 </body>
 </html>
