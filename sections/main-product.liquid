@@ -2322,7 +2322,7 @@
     vendor: {{ product.vendor|json }},
     productType: {{ product.type|json }},
     collections: {{ product.collections|map:'title'|json }},
-    image: "https:{{ product.featured_image.src|img_url:'grande' }}",
+    image: "https:{{ product.featured_image | image_url: size: 'grande' }}",
     url: "{{ shop.secure_url }}{{ product.url }}",
     price: {{ product.price |json }},
     tags: {{ product.tags |json }},
