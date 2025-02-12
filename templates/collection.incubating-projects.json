@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1662755006ddb44b9f": {
@@ -45,7 +45,7 @@
         "1662755006af0b5e27-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/welcome.jpg",
+        "image": "shopify://shop_images/welcome.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -179,12 +179,6 @@
             "collection": "grpc"
           }
         },
-        "featured_collection_kF6F9A": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "in-toto"
-          }
-        },
         "featured_collection_nYYRaX": {
           "type": "featured_collection",
           "settings": {
@@ -316,7 +310,6 @@
         "featured_collection_b8jPtd",
         "featured_collection_WWp4Pc",
         "featured_collection_Njnf3x",
-        "featured_collection_kF6F9A",
         "featured_collection_nYYRaX",
         "featured_collection_iaKwJd",
         "featured_collection_fPzCYP",
