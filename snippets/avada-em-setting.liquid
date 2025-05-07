@@ -1,6 +1,6 @@
 
-{% include 'avada-em-status' %}
-{% include 'avada-em-popup-cache' %}
+{% render 'avada-em-status' %}
+{% render 'avada-em-popup-cache' %}
 {% assign scripttags = content_for_header | split: 'var urls = ["' %}
 {% if scripttags.size > 1 %}
   {% assign scripttags = scripttags[1] %}
