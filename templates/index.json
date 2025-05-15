@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "4ac2793b-f218-43e0-a2a0-435629931dbb": {
@@ -15,7 +15,7 @@
         "template--16866133115178__4ac2793b-f218-43e0-a2a0-435629931dbb-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Inventory is limited due to products being on reserve for KubeCon + CloudNativeCon Europe 2024. Stock will be replenished following the event in Spring of 2024.<\/strong><\/p>"
+            "text": "<p><strong>Inventory is limited due to products being on reserve for KubeCon + CloudNativeCon Europe 2024. Stock will be replenished following the event in Spring of 2024.</strong></p>"
           }
         }
       },
@@ -38,12 +38,12 @@
         "166309201403ebdd65-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/52082729198_044a14593e_o_1.jpg",
+            "image": "shopify://shop_images/52082729198_044a14593e_o_1.jpg",
             "heading": "CLOUD NATIVE",
             "heading_size": "h0",
             "subheading": "T-SHIRTS",
             "button_label": "BUY NOW",
-            "link": "shopify:\/\/collections\/cncf",
+            "link": "shopify://collections/cncf",
             "button_style_secondary": true,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -56,12 +56,12 @@
         "166309201403ebdd65-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Phippy_Scene_2x_clear_4.png",
+            "image": "shopify://shop_images/Phippy_Scene_2x_clear_4.png",
             "heading": "PHIPPY & FRIENDS",
             "heading_size": "h0",
             "subheading": "SQUISHY TOYS",
             "button_label": "GET THE FAMILY",
-            "link": "shopify:\/\/collections\/phippy-friends",
+            "link": "shopify://collections/phippy-friends",
             "button_style_secondary": true,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -75,12 +75,12 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/welcome.jpg",
+            "image": "shopify://shop_images/welcome.jpg",
             "heading": "FLASH SALE",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "shop here",
-            "link": "shopify:\/\/collections\/flash-sale",
+            "link": "shopify://collections/flash-sale",
             "button_style_secondary": true,
             "box_align": "bottom-left",
             "show_text_box": true,
@@ -124,8 +124,7 @@
         },
         "price_pgKdA4": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_UAcdHQ": {
           "type": "variant_picker",
@@ -135,8 +134,7 @@
         },
         "quantity_selector_fjRYgA": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_gPn7hW": {
           "type": "buy_buttons",
@@ -225,7 +223,7 @@
         "view_all_style": "link",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
