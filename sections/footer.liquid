@@ -323,27 +323,37 @@
           </localization-form>
         {%- endif -%}
       </div>
-      <div class="footer__column footer__column--info">
-        {%- if section.settings.payment_enable -%}
-          <div class="footer__payment">
-            <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
-            <ul class="list list-payment" role="list">
-              {%- for type in shop.enabled_payment_types -%}
-                <li class="list-payment__item">
-                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
-                </li>
-              {%- endfor -%}
-            </ul>
-          </div>
-        {%- endif -%}
-        <div class="footer__copyright caption">
-          <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
-          <small class="copyright__content">{{ powered_by_link }}</small>
-        </div>
-      </div>
-    </div>
+     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
+  <div class="footer__copyright caption" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <small class="copyright__content" style="color: white;">
+      Copyright © 2025 
+      <a href="https://www.pinnaclebranding.com/" style="color: white; text-decoration: underline;">Pinnacle Branding, LLC</a>. 
+      All rights reserved. Use of this site is subject to the 
+      <a href="/policies/terms-of-service" style="color: white; text-decoration: underline;">Terms of Use</a> and 
+      <a href="/policies/privacy-policy" style="color: white; text-decoration: underline;">Privacy Policy</a>.<br>
+      This site is operated by 
+      <a href="https://www.pinnaclebranding.com/" style="color: white; text-decoration: underline;">Pinnacle Branding, LLC</a>. 
+      All logos, trademarks and brands are property of their respective owners.
+    </small>
+
+    {%- if section.settings.show_policy -%}
+      <ul class="policies list-unstyled" style="padding-left: 0; margin-top: 10px;">
+        {%- for policy in shop.policies -%}
+          {%- if policy != blank -%}
+            <li style="list-style: none;">
+              <small class="copyright__content">
+                <a href="{{ policy.url }}" style="color: white; text-decoration: underline;">{{ policy.title }}</a>
+              </small>
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
   </div>
+</div>
+</div>
 </footer>
+
 
 {% javascript %}
   class LocalizationForm extends HTMLElement {
