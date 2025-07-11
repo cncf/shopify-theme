@@ -173,6 +173,7 @@
     },
     "16630920171f0c85e5": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "PHIPPY & FRIENDS",
         "heading_size": "h2",
