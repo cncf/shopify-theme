@@ -251,28 +251,28 @@
             "collection": "notary"
           }
         },
-        "featured_collection_TnKNPQ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "openkruise"
-          }
-        },
         "featured_collection_dWbAmY": {
           "type": "featured_collection",
           "settings": {
             "collection": "open-feature"
           }
         },
-        "featured_collection_H4kr4C": {
+        "featured_collection_TnKNPQ": {
           "type": "featured_collection",
           "settings": {
-            "collection": "operator-framework"
+            "collection": "openkruise"
           }
         },
         "featured_collection_HRMXYf": {
           "type": "featured_collection",
           "settings": {
             "collection": "opentelemetry"
+          }
+        },
+        "featured_collection_H4kr4C": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "operator-framework"
           }
         },
         "featured_collection_Ayz8k7": {
@@ -322,10 +322,10 @@
         "featured_collection_BbNyfE",
         "featured_collection_dLXxAG",
         "featured_collection_WUixtf",
-        "featured_collection_TnKNPQ",
         "featured_collection_dWbAmY",
-        "featured_collection_H4kr4C",
+        "featured_collection_TnKNPQ",
         "featured_collection_HRMXYf",
+        "featured_collection_H4kr4C",
         "featured_collection_Ayz8k7",
         "featured_collection_epWDjD",
         "featured_collection_JHqaKD"
