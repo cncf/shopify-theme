@@ -107,12 +107,6 @@
             "collection": "buildpacks"
           }
         },
-        "featured_collection_TY77FN": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cert-manager"
-          }
-        },
         "featured_collection_4KMKnD": {
           "type": "featured_collection",
           "settings": {
@@ -147,18 +141,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "crossplane"
-          }
-        },
-        "featured_collection_zVbLCT": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cubefs"
-          }
-        },
-        "featured_collection_cWHkwL": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dapr"
           }
         },
         "featured_collection_b8jPtd": {
@@ -201,12 +183,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "knative"
-          }
-        },
-        "featured_collection_dtqKUb": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kubeedge"
           }
         },
         "featured_collection_V66NNM": {
@@ -298,15 +274,12 @@
         "featured_collection_HQFNLT",
         "featured_collection_GntDmJ",
         "featured_collection_cnjbqw",
-        "featured_collection_TY77FN",
         "featured_collection_4KMKnD",
         "featured_collection_xk7KED",
         "featured_collection_EdLMDz",
         "featured_collection_3ew4e6",
         "featured_collection_QkehPm",
         "featured_collection_LiPnai",
-        "featured_collection_zVbLCT",
-        "featured_collection_cWHkwL",
         "featured_collection_b8jPtd",
         "featured_collection_WWp4Pc",
         "featured_collection_Njnf3x",
@@ -314,7 +287,6 @@
         "featured_collection_iaKwJd",
         "featured_collection_fPzCYP",
         "featured_collection_pCd8mg",
-        "featured_collection_dtqKUb",
         "featured_collection_V66NNM",
         "featured_collection_aWBwWq",
         "featured_collection_8QK8eU",
