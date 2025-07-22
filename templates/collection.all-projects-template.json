@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1662755006ddb44b9f": {
@@ -45,7 +45,7 @@
         "1662755006af0b5e27-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/welcome.jpg",
+        "image": "shopify://shop_images/welcome.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -441,12 +441,6 @@
             "collection": "openkruise"
           }
         },
-        "featured_collection_4KNXX7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "open-policy-agent-opa"
-          }
-        },
         "featured_collection_fVaWmk": {
           "type": "featured_collection",
           "settings": {
@@ -457,6 +451,12 @@
           "type": "featured_collection",
           "settings": {
             "collection": "operator-framework"
+          }
+        },
+        "featured_collection_4KNXX7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "open-policy-agent-opa"
           }
         },
         "featured_collection_38htXx": {
@@ -530,9 +530,9 @@
         "featured_collection_HHaMAr",
         "featured_collection_JnaAMJ",
         "featured_collection_PTNy8a",
-        "featured_collection_4KNXX7",
         "featured_collection_fVaWmk",
         "featured_collection_MFUNU3",
+        "featured_collection_4KNXX7",
         "featured_collection_38htXx",
         "featured_collection_Xt6gcD",
         "featured_collection_TDpTLi",
