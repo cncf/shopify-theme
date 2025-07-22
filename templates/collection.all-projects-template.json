@@ -495,12 +495,6 @@
             "collection": "vitess"
           }
         },
-        "featured_collection_g8KQne": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "operator-framework"
-          }
-        },
         "featured_collection_imUMd3": {
           "type": "featured_collection",
           "settings": {
@@ -533,7 +527,6 @@
         "featured_collection_FFUDH8",
         "featured_collection_emnbD3",
         "featured_collection_9f7jfc",
-        "featured_collection_g8KQne",
         "featured_collection_imUMd3",
         "featured_collection_7MYdYg",
         "featured_collection_jcCGid"
