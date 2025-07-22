@@ -95,6 +95,12 @@
             "collection": "argo"
           }
         },
+        "featured_collection_hBcE9b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cert-manager"
+          }
+        },
         "featured_collection_GXMAjQ": {
           "type": "featured_collection",
           "settings": {
@@ -129,6 +135,18 @@
           "type": "featured_collection",
           "settings": {
             "collection": "cri-o"
+          }
+        },
+        "featured_collection_EUjgzE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cubefs"
+          }
+        },
+        "featured_collection_tTetCj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dapr"
           }
         },
         "featured_collection_AnjMMp": {
@@ -260,12 +278,15 @@
       },
       "block_order": [
         "featured_collection_tbDHrR",
+        "featured_collection_hBcE9b",
         "featured_collection_GXMAjQ",
         "featured_collection_WykLfQ",
         "featured_collection_Ed9igt",
         "featured_collection_Vb9FVf",
         "featured_collection_tref37",
         "featured_collection_j6k3c4",
+        "featured_collection_EUjgzE",
+        "featured_collection_tTetCj",
         "featured_collection_AnjMMp",
         "featured_collection_BmVmLJ",
         "featured_collection_itKeeB",
