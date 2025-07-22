@@ -352,6 +352,12 @@
           "settings": {
             "collection": "nats"
           }
+        },
+        "featured_collection_WMzCz6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "notary"
+          }
         }
       },
       "block_order": [
@@ -398,7 +404,8 @@
         "featured_collection_Ct6Cp9",
         "featured_collection_dpx6dN",
         "featured_collection_CUT9Be",
-        "featured_collection_fU8FBd"
+        "featured_collection_fU8FBd",
+        "featured_collection_WMzCz6"
       ],
       "settings": {
         "title": "",
@@ -416,12 +423,6 @@
     "collection_list_mzcWiE": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_HHaMAr": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "notary"
-          }
-        },
         "featured_collection_JnaAMJ": {
           "type": "featured_collection",
           "settings": {
@@ -520,7 +521,6 @@
         }
       },
       "block_order": [
-        "featured_collection_HHaMAr",
         "featured_collection_JnaAMJ",
         "featured_collection_PTNy8a",
         "featured_collection_fVaWmk",
