@@ -299,12 +299,6 @@
             "collection": "kubernetes"
           }
         },
-        "featured_collection_aMeddi": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kubeedge"
-          }
-        },
         "featured_collection_jd8Mty": {
           "type": "featured_collection",
           "settings": {
@@ -396,7 +390,6 @@
         "featured_collection_Y3nykq",
         "featured_collection_zjkP6g",
         "featured_collection_HbxXjN",
-        "featured_collection_aMeddi",
         "featured_collection_jd8Mty",
         "featured_collection_6ByWq9",
         "featured_collection_YtNcMq",
