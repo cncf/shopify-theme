@@ -68,14 +68,14 @@
         "variant_robot_block_dLmzqF": {
           "type": "shopify://apps/variant-robot/blocks/block/688c8244-0443-4219-ab70-b6ab325fa020",
           "settings": {
-            "variant_robot_products_label": "",
-            "display_mode": "image",
+            "variant_robot_products_label": "TEST",
+            "display_mode": "text",
             "text_display": "auto",
             "text_metafield": "",
             "text_display_layout": "auto",
             "swatch_display_mode": "swatch",
             "swatch_metafield": "",
-            "enable_tooltips": false,
+            "enable_tooltips": true,
             "tooltip_display": "auto",
             "tooltip_metafield": "",
             "text_below_product": "none",
