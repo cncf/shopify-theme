@@ -68,11 +68,11 @@
         "variant_robot_block_dLmzqF": {
           "type": "shopify://apps/variant-robot/blocks/block/688c8244-0443-4219-ab70-b6ab325fa020",
           "settings": {
-            "variant_robot_products_label": "TEST",
+            "variant_robot_products_label": "Style",
             "display_mode": "text",
             "text_display": "auto",
             "text_metafield": "",
-            "text_display_layout": "auto",
+            "text_display_layout": "dropdown",
             "swatch_display_mode": "swatch",
             "swatch_metafield": "",
             "enable_tooltips": true,
@@ -86,7 +86,7 @@
             "variant_robot_border_radius": 0,
             "variant_robot_products_sold_out": false,
             "variant_robot_zoom_on_hover": false,
-            "variant_robot_border_color": "#ACACAC",
+            "variant_robot_border_color": "#acacac",
             "variant_robot_active_border_color": "#000000",
             "variant_robot_border_width": 1,
             "variant_robot_inner_border_color": "#000000",
