@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "rich_text_ikKRdj": {
@@ -15,7 +15,7 @@
         "text_NxAPcy": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>This product is produced upon order, with a production time of about 2-3 weeks before it is shipped.<\/strong><\/h3>"
+            "text": "<h3><strong>This product is produced upon order, with a production time of about 2-3 weeks before it is shipped.</strong></h3>"
           }
         }
       },
@@ -52,8 +52,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -64,7 +63,36 @@
         },
         "price": {
           "type": "price",
+          "settings": {}
+        },
+        "variant_robot_block_dLmzqF": {
+          "type": "shopify://apps/variant-robot/blocks/block/688c8244-0443-4219-ab70-b6ab325fa020",
           "settings": {
+            "variant_robot_products_label": "",
+            "display_mode": "image",
+            "text_display": "auto",
+            "text_metafield": "",
+            "text_display_layout": "auto",
+            "swatch_display_mode": "swatch",
+            "swatch_metafield": "",
+            "enable_tooltips": false,
+            "tooltip_display": "auto",
+            "tooltip_metafield": "",
+            "text_below_product": "none",
+            "swatch_style": "circle",
+            "image_style": "square",
+            "variant_robot_products_per_row": 5,
+            "variant_robot_products_spacing": 5,
+            "variant_robot_border_radius": 0,
+            "variant_robot_products_sold_out": false,
+            "variant_robot_zoom_on_hover": false,
+            "variant_robot_border_color": "#ACACAC",
+            "variant_robot_active_border_color": "#000000",
+            "variant_robot_border_width": 1,
+            "variant_robot_inner_border_color": "#000000",
+            "variant_robot_inner_border_width": 0,
+            "variant_robot_advanced_mode": false,
+            "variant_robot_custom_liquid": ""
           }
         },
         "variant_picker": {
@@ -75,8 +103,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -86,8 +113,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -95,7 +121,7 @@
           "settings": {
             "heading": "Materials",
             "icon": "leather",
-            "content": "<p><\/p>",
+            "content": "<p></p>",
             "page": ""
           }
         },
@@ -105,7 +131,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "<p><\/p>",
+            "content": "<p></p>",
             "page": ""
           }
         },
@@ -115,7 +141,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "<p><\/p>",
+            "content": "<p></p>",
             "page": ""
           }
         },
@@ -125,7 +151,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "<p><\/p>",
+            "content": "<p></p>",
             "page": ""
           }
         },
@@ -142,6 +168,7 @@
         "title",
         "caption",
         "price",
+        "variant_robot_block_dLmzqF",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
