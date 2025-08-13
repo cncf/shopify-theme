@@ -4,7 +4,7 @@
   Do not modify this file. Any changes will be reset the next time that
   Locksmith interacts with this theme.
 
-  Last updated: Mon, 21 Jul 2025 20:07:52 -0400 (EDT)
+  Last updated: Tue, 12 Aug 2025 20:08:32 -0400 (EDT)
 {% endcomment -%}
 
 {%include 'locksmith-variables', locksmith_scope: nil%}{%if locksmith_access_denied_content == blank%}{%capture locksmith_access_denied_content%}{%if locksmith_manual_lock%}{{content_for_layout}}{%elsif locksmith_remote_lock%}<div id="locksmith-content">
@@ -71,7 +71,51 @@
         }
       </script>{%endif%}{%endcapture%}{%endif%}{%include 'locksmith-content-variables'%}{%include 'locksmith-variables', locksmith_scope: nil%}{%if locksmith_access_denied%}{%capture content_for_header%}{{content_for_header|replace:'.oembed', ''|replace:'.atom', ''|replace:'link rel="alternate" type="application/json+oembed"', 'link'|replace:' title="Feed" rel="alternate" type="application/atom+xml"', ''}}{%endcapture%}{%endif%}{%capture locksmith_initializations%}{%if locksmith_access_denied and locksmith_manual_lock == false and locksmith_noindex%}<meta name="robots" content="noindex" />{%endif%}{{locksmith_json_script}}{{locksmith_client}}
 
-  <script data-locksmith>Locksmith.jsonTag={{locksmith_json|json}};Locksmith.jsonTagSignature={{locksmith_json_signature|json}}</script>{%endcapture%}{%if locksmith_access_granted or locksmith_manual_lock%}{%if locksmith_redirect != blank%}{%assign content_for_layout=locksmith_redirect%}{%endif%}{%else%}{%assign content_for_layout=locksmith_access_denied_content%}{%endif%}{%capture _3%}<script data-locksmith>
+  <script data-locksmith>Locksmith.jsonTag={{locksmith_json|json}};Locksmith.jsonTagSignature={{locksmith_json_signature|json}}</script>{%endcapture%}{%if locksmith_access_granted or locksmith_manual_lock%}{%if locksmith_redirect != blank%}{%assign content_for_layout=locksmith_redirect%}{%endif%}{%else%}{%assign content_for_layout=locksmith_access_denied_content%}{%endif%}{%capture _3%}{%if locksmith_access_denied%}<style>
+    /* Smart spacing for Locksmith content - only applied when access is denied */
+      /* Base padding: always add 20px minimum to top */
+      #locksmith-content .section {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Locksmith-specific centering that doesn't rely on theme CSS */
+      #locksmith-content .locksmith-content-inner {
+        max-width: var(--page-width, 1200px);
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: var(--page-padding, 1.5rem);
+        padding-right: var(--page-padding, 1.5rem);
+      }
+
+      /* Mobile adjustments */
+      @media screen and (max-width: 768px) {
+        #locksmith-content .locksmith-content-inner {
+          padding-left: var(--mobile-page-padding, 1rem);
+          padding-right: var(--mobile-page-padding, 1rem);
+        }
+      }
+
+      /* For themes with transparent headers - detect and add offset when header is transparent */
+      /* This matches the pattern used by Fabric and similar themes */
+      body:has(> #header-group > .header-section > #header-component[transparent]):not(
+          :has(> #header-group > .header-section + .shopify-section)
+        )
+        > main
+        > #locksmith-content:first-child .section {
+        /* Prioritize header-height, then header-group-height, default to 70px for transparent headers */
+        /* The 20px base padding is already included in the base rule above */
+        padding-top: calc(var(--header-height, var(--header-group-height, 70px)) + 20px );
+      }
+
+      /* Alternative selector for themes that don't use #header-group */
+      body:has(header[data-transparent], .header[data-transparent], #shopify-section-header[data-transparent])
+        > main
+        > #locksmith-content:first-child .section {
+        padding-top: calc(var(--header-height, var(--header-group-height, 70px)) + 20px );
+      }
+
+  </style>{%endif%}<script data-locksmith>
     var load = function () {
 {%unless _7%}{%if cart.attributes.locksmith == nil%}
 
