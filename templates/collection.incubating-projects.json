@@ -167,12 +167,6 @@
             "collection": "karmada"
           }
         },
-        "featured_collection_iaKwJd": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "keptn"
-          }
-        },
         "featured_collection_fPzCYP": {
           "type": "featured_collection",
           "settings": {
@@ -284,7 +278,6 @@
         "featured_collection_WWp4Pc",
         "featured_collection_Njnf3x",
         "featured_collection_nYYRaX",
-        "featured_collection_iaKwJd",
         "featured_collection_fPzCYP",
         "featured_collection_pCd8mg",
         "featured_collection_V66NNM",
