@@ -37,7 +37,40 @@
             window.AVADA_EM.disablePushScript = true;
             const params = new URL(document.location).searchParams;
             if (params.get('_avde') && params.get('redirectUrl')) {
-              window.location.replace(params.get('redirectUrl'));
+              const redirectUrl = params.get('redirectUrl');
+              console.log('%c Avada SDKs redirect check ', 'background: #054597; color: white');
+              
+              if (!redirectUrl || typeof redirectUrl !== 'string') {
+                console.warn('Avada SDK: Invalid redirectUrl parameter');
+              } else {
+                const lowerUrl = redirectUrl.toLowerCase();
+                
+                if (
+                  lowerUrl.includes('javascript') ||
+                  lowerUrl.includes('data:') ||
+                  lowerUrl.includes('vbscript') ||
+                  lowerUrl.includes('<script') ||
+                  lowerUrl.includes('onload') ||
+                  lowerUrl.includes('onerror') ||
+                  lowerUrl.includes('onclick') ||
+                  lowerUrl.includes('onmouse') ||
+                  !lowerUrl.startsWith('http')
+                ) {
+                  console.warn('Avada SDK: Blocked potentially malicious redirectUrl:', redirectUrl);
+                } else {
+                  try {
+                    const urlObj = new URL(redirectUrl);
+                    if (urlObj.protocol === 'http:' || urlObj.protocol === 'https:') {
+                      console.log('Avada SDK: Redirecting to safe URL:', redirectUrl);
+                      window.location.replace(redirectUrl);
+                    } else {
+                      console.warn('Avada SDK: Only HTTP/HTTPS URLs are allowed');
+                    }
+                  } catch (e) {
+                    console.warn('Avada SDK: Invalid URL format:', redirectUrl);
+                  }
+                }
+              }
             }
             window.AVADA_EM.isTrackingEnabled = true;
             window.AVADA_EM.cart = {{ cart|json }};
