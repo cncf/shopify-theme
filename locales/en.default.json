@@ -457,5 +457,12 @@
         "company_card_name_label": "Company Name "
       }
     }
+  },
+  "shopify": {
+    "checkout": {
+      "shipping": {
+        "shipping_method_title": "Shipping Method - If you are looking to pickup your order at KubeCon-NA in Atlanta Georgia for FREE, please use the discount code \"KCNA25PICKUP\" "
+      }
+    }
   }
 }
