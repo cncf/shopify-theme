@@ -461,7 +461,7 @@
   "shopify": {
     "checkout": {
       "shipping": {
-        "shipping_method_title": "Shipping Method - If you are looking to pickup your order at KubeCon-NA in Atlanta Georgia for FREE, please use the discount code \"KCNA25PICKUP\" "
+        "shipping_method_title": "Shipping Method "
       }
     }
   }
