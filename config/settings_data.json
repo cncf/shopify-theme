@@ -1,18 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#d62293",
     "gradient_accent_1": "",
-    "colors_accent_2": "#ff7900",
+    "colors_accent_2": "#0086ff",
     "gradient_accent_2": "",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
@@ -100,24 +100,24 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
-    "social_twitter_link": "https:\/\/twitter.com\/cloudnativefdn",
-    "social_facebook_link": "https:\/\/www.facebook.com\/CloudNativeComputingFoundation\/",
+    "social_twitter_link": "https://twitter.com/cloudnativefdn",
+    "social_facebook_link": "https://www.facebook.com/CloudNativeComputingFoundation/",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/humans.of.cloudnative\/",
+    "social_instagram_link": "https://www.instagram.com/humans.of.cloudnative/",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "https:\/\/www.youtube.com\/c\/cloudnativefdn",
+    "social_youtube_link": "https://www.youtube.com/c/cloudnativefdn",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/android-chrome-512x512.png",
+    "favicon": "shopify://shop_images/android-chrome-512x512.png",
     "currency_code_enabled": true,
     "cart_type": "page",
     "show_vendor": false,
     "show_cart_note": true,
-    "checkout_logo_image": "shopify:\/\/shop_images\/Store_2964647d-f616-48ce-92c9-c0994c6a7ef2.png",
+    "checkout_logo_image": "shopify://shop_images/Store_2964647d-f616-48ce-92c9-c0994c6a7ef2.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_accent_color": "#d62293",
@@ -133,21 +133,20 @@
               "text": "FLASH SALE!",
               "text_alignment": "center",
               "color_scheme": "accent-2",
-              "link": "shopify:\/\/collections\/flash-sale"
+              "link": "shopify://collections/flash-sale"
             }
           }
         },
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/Store_2964647d-f616-48ce-92c9-c0994c6a7ef2.png",
+          "logo": "shopify://shop_images/Store_2964647d-f616-48ce-92c9-c0994c6a7ef2.png",
           "logo_width": 200,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -166,7 +165,7 @@
           "241fa8a0-672b-4da4-a2d0-8c945184a31b": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/cncf-white.png",
+              "image": "shopify://shop_images/cncf-white.png",
               "image_width": 200,
               "alignment": ""
             }
@@ -176,7 +175,7 @@
             "disabled": true,
             "settings": {
               "heading": "Heading",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
             }
           }
         },
@@ -226,21 +225,17 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "3500920606369333595": {
-        "type": "shopify:\/\/apps\/panda-size-chart\/blocks\/app-block\/b314ec07-fb45-49e7-be52-6a624f491710",
+        "type": "shopify://apps/panda-size-chart/blocks/app-block/b314ec07-fb45-49e7-be52-6a624f491710",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "13070091535480640111": {
-        "type": "shopify:\/\/apps\/attrac\/blocks\/app-embed\/b783956d-47a9-4434-91ad-4ec960bd74b0",
+        "type": "shopify://apps/attrac/blocks/app-embed/b783956d-47a9-4434-91ad-4ec960bd74b0",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -361,8 +356,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -400,7 +394,7 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },

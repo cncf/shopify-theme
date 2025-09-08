@@ -15,21 +15,20 @@
         "template--16866133115178__4ac2793b-f218-43e0-a2a0-435629931dbb-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Inventory is limited due to products being on reserve for KubeCon + CloudNativeCon Europe 2024. Stock will be replenished following the event in Spring of 2024.</strong></p>"
+            "text": "<h3><strong>If you would like to save on shipping costs and pick your order up at KCNA in Atlanta for FREE, please enter the discount code \"KCNA25PICKUP\" at checkout. </strong></h3>"
           }
         }
       },
       "block_order": [
         "template--16866133115178__4ac2793b-f218-43e0-a2a0-435629931dbb-text-1"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "1663092014441a5f26": {
