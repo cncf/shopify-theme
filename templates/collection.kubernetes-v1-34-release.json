@@ -11,41 +11,8 @@
   "sections": {
     "1662755006ddb44b9f": {
       "type": "image-banner",
-      "blocks": {
-        "1662755006af0b5e27-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ collection.title }}",
-            "heading_size": "h0"
-          }
-        },
-        "1662755006af0b5e27-1": {
-          "type": "text",
-          "settings": {
-            "text": "Check here for details and stuff",
-            "text_style": "body"
-          }
-        },
-        "1662755006af0b5e27-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1662755006af0b5e27-0",
-        "1662755006af0b5e27-1",
-        "1662755006af0b5e27-2"
-      ],
       "settings": {
-        "image": "shopify://shop_images/welcome.jpg",
+        "image": "shopify://shop_images/Kubernetes_v1.34_release_SIG_tee_Banner.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
