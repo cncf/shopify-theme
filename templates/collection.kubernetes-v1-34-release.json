@@ -9,20 +9,28 @@
  */
 {
   "sections": {
-    "1662755006ddb44b9f": {
-      "type": "image-banner",
+    "rich_text_FcEayP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_V4dLB7": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Kubernetes v1.34  Release Team Tee</p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_V4dLB7"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Kubernetes_v1.34_release_SIG_tee_Banner.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "banner": {
@@ -54,7 +62,7 @@
     }
   },
   "order": [
-    "1662755006ddb44b9f",
+    "rich_text_FcEayP",
     "banner",
     "product-grid"
   ]
