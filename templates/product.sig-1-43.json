@@ -9,6 +9,29 @@
  */
 {
   "sections": {
+    "rich_text_7dxm3U": {
+      "type": "rich-text",
+      "blocks": {
+        "text_pJLmfM": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>This item is a PRE-ORDER exclusive. Estimated to ship by mid-November. Please note each recipient is limited to 1 t-shirt. If more than 1 t-shirt is ordered, the store team will reach out to you to pick 1 size/fit</h3>"
+          }
+        }
+      },
+      "block_order": [
+        "text_pJLmfM"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -167,6 +190,7 @@
     }
   },
   "order": [
+    "rich_text_7dxm3U",
     "main",
     "1663168911f639cfea",
     "product-recommendations"
