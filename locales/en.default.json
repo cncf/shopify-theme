@@ -462,6 +462,9 @@
     "checkout": {
       "shipping": {
         "shipping_method_title": "Shipping Method "
+      },
+      "general": {
+        "choose_shipping_method": "Choose a shipping method-1"
       }
     }
   }
