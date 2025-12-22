@@ -15,7 +15,7 @@
         "heading_V4dLB7": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Kubernetes v1.34  Release Team Tee</p>",
+            "heading": "<p>Kubernetes v1.32  Release Team Tee</p>",
             "heading_size": "h1"
           }
         }
