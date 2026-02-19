@@ -43,6 +43,25 @@
     {%- endif -%}
   </div>
 
+{%- assign show_kubestronaut_btn = false -%}
+{%- for item in cart.items -%}
+  {%- if item.product.handle contains 'kubestronaut' or item.product.title contains 'Kubestronaut' -%}
+    {%- assign show_kubestronaut_btn = true -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if show_kubestronaut_btn -%}
+  <div style="margin: 10px 0 18px;">
+    <a href="https://store.cncf.io/collections/kubestronaut?ls=-L6W0GRgvjK0mLMscCaZq"
+       class="button button--secondary"
+       style="display:inline-flex; align-items:center; gap:8px;">
+      ← Back to Kubestronaut Collection
+    </a>
+  </div>
+{%- endif -%}
+  
+
   <form action="{{ routes.cart_url }}" class="cart__contents critical-hidden" method="post" id="cart">
     <div class="cart__items" id="main-cart-items" data-id="{{ section.id }}">
       <div class="js-contents">
